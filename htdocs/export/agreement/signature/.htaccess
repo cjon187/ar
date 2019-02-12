@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^bundle/(.+)/(.*)/$ ?bundle=1&hash=$1 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^bundle/(.*)$ ?bundle=1&hash=$1 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.+)/(.*)$ ?hash=$1 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.*)$ ?hash=$1 [L,NC,QSA]
+</IfModule>

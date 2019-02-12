@@ -1,0 +1,22 @@
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.+)/(.+)/$ ?currentPage=$1&param=$2 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.+)/(.+)$ ?currentPage=$1&param=$2 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.+)/$ ?currentPage=$1 [L,NC,QSA]
+
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^(.+)$ ?currentPage=$1 [L,NC,QSA]
+</IfModule>

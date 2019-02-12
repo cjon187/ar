@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+#yoyTable .title {
+	font-family: 'Rock Salt', cursive;
+	color:#db0000;
+	font-size:1.2em;
+}
+
+
+
+#yoyTable {
+	font-size:0.9em;
+	margin-bottom:20px !important;
+}
+#yoyTable:not(:last-of-type) {
+}
+#yoyTable td {
+	color:#333;
+}
+#yoyTable td:first-of-type {
+
+}
+#yoyTable th:not(:first-of-type),#yoyPage td:not(:first-of-type) {
+	text-align:center;
+	width:100px;
+	line-height:1em;
+}
+#yoyTable th:not(:first-of-type) {
+	color:#888;
+	font-weight:normal;
+	vertical-align:bottom;
+}
+
+#yoyTable tr.highlight {
+	background: rgba(209,209,209,1);
+	background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(242,242,242,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,209,209,1)), color-stop(100%, rgba(242,242,242,1)));
+	background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(242,242,242,1) 100%);
+	background: -o-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(242,242,242,1) 100%);
+	background: -ms-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(242,242,242,1) 100%);
+	background: linear-gradient(to bottom, rgba(209,209,209,1) 0%, rgba(242,242,242,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#f2f2f2', GradientType=0 );
+}
+
+#yoyTable tr td.improvement_value {
+	color:#db0000;
+}
+
+#yoyTable tr.improve td.improvement_value {
+	color:green;
+}
+
+.yoyMain {
+	text-align:center;
+	padding:20px;
+	background: rgba(224,224,224,1);
+	background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(194,194,194,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,224,224,1)), color-stop(100%, rgba(194,194,194,1)));
+	background: -webkit-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(194,194,194,1) 100%);
+	background: -o-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(194,194,194,1) 100%);
+	background: -ms-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(194,194,194,1) 100%);
+	background: linear-gradient(to bottom, rgba(224,224,224,1) 0%, rgba(194,194,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#c2c2c2', GradientType=0 );
+	border-radius:5px;
+	margin-bottom:10px;
+}
+
+.yoyMain .noChange {
+	padding:20px 0px;
+}
+
+.yoyMainIndexDiv {
+	font-size:1.4em;
+	text-transform:uppercase;
+	line-height:1em;
+	color:#db0000;
+}
+
+.yoyMainIndexDiv.improve {
+	color:green;
+}
+.yoyMainIndexDiv .glyphicon {
+	font-size:2.2em;
+	line-height:1em;
+}
+
+.yoyMainIndexDiv .yoyMainIndex {
+	font-size:0.9em;
+}
+
+.yoyMainTitle {
+	margin:0px 0px 20px 0px;
+	text-align:center;
+	color:#111;
+}
+
+.yoyMainTable {
+	width:100%;
+}
+
+.yoyMainTable th {
+	color:#666;
+	font-weight:normal;
+	font-size:0.9em;
+	padding-bottom:3px;
+}
+.yoyMainTable th ,.yoyMainTable td {
+	text-align:center;
+	line-height:1em;
+	width:50%;
+}
+
+.yoyMainTable td.improve {
+	color:green;
+}
+.yoyMainTable td.decline {
+	color:red;
+}
+.yoyMainTable td .sub {
+	text-align:right;
+	width:50%;
+	text-transform: uppercase;
+	padding-top:2px;
+	font-size:0.7em;
+	color:#777;
+	padding-right:3px;
+}
+.yoyMainTable td .value {
+	text-align:left;
+	padding-left:3px;
+	font-size:0.9em;
+}
+
+.yoyMainTable tr td:first-of-type,.yoyMainTable tr th:first-of-type {
+	 border-right:1px solid #aaa;
+}
+.yoyMainUnit {
+	font-size:0.6em;
+	line-height:1em;
+	color:#333;
+}
+.yoyMainNum .count {
+	font-size:2.2em;
+	color:green;
+	line-height:1em;
+	margin:5px;
+	font-weight:bold;
+}
+.yoyMainNum .date {
+	font-size:1em;
+	line-height:1em;
+	margin:5px 5px 10px 5px;
+	color:#666;
+}
+.yoyMainNum .unit {
+	font-size:0.8em;
+	line-height:1em;
+	margin:5px;
+}
+
+.yoyMain.small_padding {
+	padding:10px;
+}
+
+.yoyMainSubTable {
+	width:100%;
+}
+.yoyMainSubTable > tbody > tr > td {
+	width:50%;
+	vertical-align: top;
+}
+.yoyMainSubTable .glyphicon {
+	font-size:1em;
+}
+.yoyMainSubTable .yoyMainIndex {
+	font-size:0.6em;
+	line-height:1em;
+	font-weight:bold;
+	white-space: nowrap;
+}
+.yoyMainSubTable .glyphicon {
+	font-size:1em;
+}
+.yoyMainSubTable .yoyMainIndex,.yoyMainSubTable .glyphicon {
+	color:red;
+}
+.yoyMainSubTable .improve .yoyMainIndex,.yoyMainSubTable .improve .glyphicon {
+	color:green;
+}
+.yoyMainSubTable .yoyMainTitle {
+	font-size:0.8em;
+	line-height:1em;
+	color:#333;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+.yoyMainSubTable .noChange {
+	padding:5px 0px;
+	font-size:0.5em;
+	font-weight:bold;
+	padding:10px 0px 5px 0px;
+}
+.yoyMainSubTable td {
+	padding:10px 5px;
+}
+
+.yoyMainSubTable tr td:first-of-type {
+	border-right:1px solid #aaa;
+}
+@if(!$hideConquest)
+	.yoyMainSubTable tr:first-of-type td {
+		border-bottom:1px solid #aaa;
+	}
+@endif
+
+.breakdown {
+	margin:0px;
+}
+.breakdown tr td {
+	padding:10px 15px;
+}
+.breakdown .glyphicon {
+	font-size:2em;
+	color:#999;
+}
+.breakdownCount {
+	font-size:1.3em;
+	color:green;
+	text-align:left;
+}
+.breakdownDesc {
+	text-align:left;
+	white-space: nowrap;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.breakdownSubDesc {
+	margin-top:0px;
+	padding-top:0px;
+	font-size:12pt;
+	color:#aaa;
+	text-align:left;
+}
+
+.opporunitiesDetailsTable {
+	width:100%;
+}
+.opporunitiesDetailsTable tr td {
+	width:50%;
+	padding:0px 25px 0px 0px;
+}
+
+#section_recommendations {
+	border:0px;
+	background: rgba(255,38,0,1);
+	background: -moz-linear-gradient(top, rgba(255,38,0,1) 0%, rgba(156,13,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,38,0,1)), color-stop(100%, rgba(156,13,0,1)));
+	background: -webkit-linear-gradient(top, rgba(255,38,0,1) 0%, rgba(156,13,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,38,0,1) 0%, rgba(156,13,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,38,0,1) 0%, rgba(156,13,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,38,0,1) 0%, rgba(156,13,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2600', endColorstr='#9c0d00', GradientType=0 );
+}
+
+.factTable {
+	font-size:0.9em;
+	color:#777;
+	text-align:center;
+	width:100%;
+}
+.factTable tr th:nth-child(1) {
+	width:60px;
+}
+.factTable tr:nth-child(1) td {
+	background-color:#f9f9f9;
+}
+.factTable tr th {
+	color:#333;
+	margin-bottom:5px;
+	font-weight:normal;
+	text-align:center;
+}
+.factTable tr td {
+	font-size:0.9em;
+	text-align:center;
+	white-space:nowrap;
+}
+
+.formulaTable {
+	margin:10px auto;
+}
+.formulaTable tr td{
+	padding-top:6px;
+}
+
+.formulaTable .title {
+	color:white;
+	font-size:0.9em;
+	text-align:right;
+	padding-right:10px;
+	white-space:nowrap;
+}
+
+.formulaTable .value {
+	color:yellow;
+	font-size:1.5em;
+	text-align:left !important;
+	font-weight:bold;
+	white-space:nowrap;
+	height:23px;
+}
+.formulaDisclaimer {
+	font-size:0.7em;
+	text-align:center;
+	padding-top:15px;
+	color:#ccc;
+	font-style:italic;
+}

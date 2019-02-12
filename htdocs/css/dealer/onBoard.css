@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	background-color:#efefef;
+	font-family: 'Open Sans';
+}
+.container {
+	max-width:960px;
+}
+#headerContainer {
+}
+#siteTitle{
+	margin:20px 0px;
+	text-align:right;
+
+}
+#siteTitle .title{
+	font-size:1.8em;
+	line-height:1.1em;
+	font-weight: 300;
+}
+
+#mainContainer {
+	background-color:white;
+	padding:30px 0px;
+	min-height:500px;
+}
+
+.input-group.required > span.ar-form {
+     color:blue;
+}
+.input-group.required > span.ar-form:after {
+    content: '' !important;
+}
+
+.section {
+	margin-bottom:30px;
+}
+.sectionTitle {
+	color:white;
+	background-color:#111;
+	font-size:1.5em;
+	border-bottom:1px solid #ccc;
+	padding-left:10px;
+	padding-bottom:0px;
+	margin-bottom:5px;
+	text-transform: uppercase;
+}
+.formTbl {
+	border-collapse:collapse;
+	font-size:0.9em;
+	margin-bottom:0px;
+}
+.formTbl thead th {
+	padding:5px;
+	background-color:#ddd;
+	border:1px solid #ccc;
+	color:#555;
+}
+.formTbl tbody td {
+	border:1px solid #ccc;
+	padding:0px !important;
+}
+.formTbl th:first-of-type {
+	background-color:#ddd;
+	border:1px solid #ccc;
+	color:#555;
+}
+
+.formTbl tbody td input,.formTbl tbody td select,#contactsTbl tbody td button {
+	border:0px;
+	width:100%;
+	height:100%;
+	padding:5px;
+}
+.sectionDescription {
+	line-height:1.1em;
+	font-size:0.9em;
+}
+
+.disclaimer {
+	margin-top:5px;
+	font-size:0.9em;
+	color:#aaa;
+}
+.ui-timepicker {
+	font-size:0.9em;
+}
+
+.ui-timepicker .ui-menu-item {
+	text-align:left;
+}
+
+#contactsTblActionBtns {
+	margin-top:5px;
+}
+.addContactsBtn {
+	border-radius:0px;
+	margin-left:5px;
+	font-weight:bold;
+}
+
+#addSalesrepBtn {
+	background-color:#3085D6;
+	color:white;
+}
+#addAccountingBtn,#addNewSalesManagerBtn,#addUsedSalesManagerBtn {
+	background-color:#42A35A;
+	color:white;
+}
+
+.roleDescription {
+	line-height:1em;
+	margin-top:5px;
+}
+#footerContainer {
+	padding:30px 10px;
+	text-align:center;
+	font-size:0.9em;
+	color:#333;
+}
+
+
+#successTitle {
+	font-size:2em;
+}

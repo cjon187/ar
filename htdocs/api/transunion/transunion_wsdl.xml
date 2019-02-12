@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions name="ExternalSolutionExecutionService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+<wsdl:types>
+<xsd:schema targetNamespace="http://tempuri.org/Imports">
+<xsd:import schemaLocation="http://ar.absoluteresults.com/api/transunion/transunion_xsd0.xml" namespace="http://tempuri.org/"/>
+<xsd:import schemaLocation="http://ar.absoluteresults.com/api/transunion/transunion_xsd1.xml" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+<xsd:import schemaLocation="http://ar.absoluteresults.com/api/transunion/transunion_xsd2.xml" namespace="http://schemas.datacontract.org/2004/07/"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="IExternalSolutionExecution_ExecuteXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ExecuteXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ExecuteXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ExecuteXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ExecuteXMLBinary_InputMessage">
+<wsdl:part name="parameters" element="tns:ExecuteXMLBinary"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ExecuteXMLBinary_OutputMessage">
+<wsdl:part name="parameters" element="tns:ExecuteXMLBinaryResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SaveXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:SaveXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SaveXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:SaveXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ViewApplicationXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ViewApplicationXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ViewApplicationXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ViewApplicationXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ViewApplicationHistoryXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ViewApplicationHistoryXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ViewApplicationHistoryXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ViewApplicationHistoryXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_UnlockApplicationXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:UnlockApplicationXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_UnlockApplicationXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:UnlockApplicationXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveSSXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveSSXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveSSXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveSSXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveAppsByRangeXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveAppsByRangeXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveAppsByRangeXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveAppsByRangeXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_AuthenticateXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:AuthenticateXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_AuthenticateXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:AuthenticateXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ChangePasswordXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ChangePasswordXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ChangePasswordXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ChangePasswordXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ReassignApplicationXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ReassignApplicationXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ReassignApplicationXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ReassignApplicationXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SerachApplicationXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:SerachApplicationXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SerachApplicationXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:SerachApplicationXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SearchApplicationXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:SearchApplicationXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_SearchApplicationXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:SearchApplicationXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveSecretQuestionXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveSecretQuestionXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveSecretQuestionXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveSecretQuestionXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ResetPasswordByUserXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:ResetPasswordByUserXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_ResetPasswordByUserXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:ResetPasswordByUserXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_UploadDocumentXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:UploadDocumentXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_UploadDocumentXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:UploadDocumentXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveDocumentMetaDataXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveDocumentMetaDataXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RetrieveDocumentMetaDataXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:RetrieveDocumentMetaDataXMLStringResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_DownloadDocument_InputMessage">
+<wsdl:part name="parameters" element="tns:DownloadDocument"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_DownloadDocument_OutputMessage">
+<wsdl:part name="parameters" element="tns:DownloadDocumentResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RemoveDocument_InputMessage">
+<wsdl:part name="parameters" element="tns:RemoveDocument"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_RemoveDocument_OutputMessage">
+<wsdl:part name="parameters" element="tns:RemoveDocumentResponse"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_LogoutSessionXMLString_InputMessage">
+<wsdl:part name="parameters" element="tns:LogoutSessionXMLString"/>
+</wsdl:message>
+<wsdl:message name="IExternalSolutionExecution_LogoutSessionXMLString_OutputMessage">
+<wsdl:part name="parameters" element="tns:LogoutSessionXMLStringResponse"/>
+</wsdl:message>
+<wsdl:portType name="IExternalSolutionExecution">
+<wsdl:operation name="ExecuteXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLString" message="tns:IExternalSolutionExecution_ExecuteXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLStringResponse" message="tns:IExternalSolutionExecution_ExecuteXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ExecuteXMLBinary">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLBinary" message="tns:IExternalSolutionExecution_ExecuteXMLBinary_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLBinaryResponse" message="tns:IExternalSolutionExecution_ExecuteXMLBinary_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SaveXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SaveXMLString" message="tns:IExternalSolutionExecution_SaveXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SaveXMLStringResponse" message="tns:IExternalSolutionExecution_SaveXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RetrieveXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveXMLString" message="tns:IExternalSolutionExecution_RetrieveXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveXMLStringResponse" message="tns:IExternalSolutionExecution_RetrieveXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ViewApplicationXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ViewApplicationXMLString" message="tns:IExternalSolutionExecution_ViewApplicationXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ViewApplicationXMLStringResponse" message="tns:IExternalSolutionExecution_ViewApplicationXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ViewApplicationHistoryXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ViewApplicationHistoryXMLString" message="tns:IExternalSolutionExecution_ViewApplicationHistoryXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ViewApplicationHistoryXMLStringResponse" message="tns:IExternalSolutionExecution_ViewApplicationHistoryXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UnlockApplicationXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/UnlockApplicationXMLString" message="tns:IExternalSolutionExecution_UnlockApplicationXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/UnlockApplicationXMLStringResponse" message="tns:IExternalSolutionExecution_UnlockApplicationXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RetrieveSSXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveSSXMLString" message="tns:IExternalSolutionExecution_RetrieveSSXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveSSXMLStringResponse" message="tns:IExternalSolutionExecution_RetrieveSSXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RetrieveAppsByRangeXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveAppsByRangeXMLString" message="tns:IExternalSolutionExecution_RetrieveAppsByRangeXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveAppsByRangeXMLStringResponse" message="tns:IExternalSolutionExecution_RetrieveAppsByRangeXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="AuthenticateXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/AuthenticateXMLString" message="tns:IExternalSolutionExecution_AuthenticateXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/AuthenticateXMLStringResponse" message="tns:IExternalSolutionExecution_AuthenticateXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ChangePasswordXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ChangePasswordXMLString" message="tns:IExternalSolutionExecution_ChangePasswordXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ChangePasswordXMLStringResponse" message="tns:IExternalSolutionExecution_ChangePasswordXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ReassignApplicationXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ReassignApplicationXMLString" message="tns:IExternalSolutionExecution_ReassignApplicationXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ReassignApplicationXMLStringResponse" message="tns:IExternalSolutionExecution_ReassignApplicationXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SerachApplicationXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SerachApplicationXMLString" message="tns:IExternalSolutionExecution_SerachApplicationXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SerachApplicationXMLStringResponse" message="tns:IExternalSolutionExecution_SerachApplicationXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SearchApplicationXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SearchApplicationXMLString" message="tns:IExternalSolutionExecution_SearchApplicationXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/SearchApplicationXMLStringResponse" message="tns:IExternalSolutionExecution_SearchApplicationXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RetrieveSecretQuestionXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveSecretQuestionXMLString" message="tns:IExternalSolutionExecution_RetrieveSecretQuestionXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveSecretQuestionXMLStringResponse" message="tns:IExternalSolutionExecution_RetrieveSecretQuestionXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ResetPasswordByUserXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ResetPasswordByUserXMLString" message="tns:IExternalSolutionExecution_ResetPasswordByUserXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/ResetPasswordByUserXMLStringResponse" message="tns:IExternalSolutionExecution_ResetPasswordByUserXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UploadDocumentXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/UploadDocumentXMLString" message="tns:IExternalSolutionExecution_UploadDocumentXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/UploadDocumentXMLStringResponse" message="tns:IExternalSolutionExecution_UploadDocumentXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RetrieveDocumentMetaDataXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveDocumentMetaDataXMLString" message="tns:IExternalSolutionExecution_RetrieveDocumentMetaDataXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RetrieveDocumentMetaDataXMLStringResponse" message="tns:IExternalSolutionExecution_RetrieveDocumentMetaDataXMLString_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="DownloadDocument">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/DownloadDocument" message="tns:IExternalSolutionExecution_DownloadDocument_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/DownloadDocumentResponse" message="tns:IExternalSolutionExecution_DownloadDocument_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="RemoveDocument">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RemoveDocument" message="tns:IExternalSolutionExecution_RemoveDocument_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/RemoveDocumentResponse" message="tns:IExternalSolutionExecution_RemoveDocument_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="LogoutSessionXMLString">
+<wsdl:input wsaw:Action="http://tempuri.org/IExternalSolutionExecution/LogoutSessionXMLString" message="tns:IExternalSolutionExecution_LogoutSessionXMLString_InputMessage"/>
+<wsdl:output wsaw:Action="http://tempuri.org/IExternalSolutionExecution/LogoutSessionXMLStringResponse" message="tns:IExternalSolutionExecution_LogoutSessionXMLString_OutputMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="basicHttp" type="tns:IExternalSolutionExecution">
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="ExecuteXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ExecuteXMLBinary">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ExecuteXMLBinary" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="SaveXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/SaveXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RetrieveXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RetrieveXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ViewApplicationXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ViewApplicationXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ViewApplicationHistoryXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ViewApplicationHistoryXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="UnlockApplicationXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/UnlockApplicationXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RetrieveSSXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RetrieveSSXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RetrieveAppsByRangeXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RetrieveAppsByRangeXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="AuthenticateXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/AuthenticateXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ChangePasswordXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ChangePasswordXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ReassignApplicationXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ReassignApplicationXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="SerachApplicationXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/SerachApplicationXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="SearchApplicationXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/SearchApplicationXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RetrieveSecretQuestionXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RetrieveSecretQuestionXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="ResetPasswordByUserXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/ResetPasswordByUserXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="UploadDocumentXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/UploadDocumentXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RetrieveDocumentMetaDataXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RetrieveDocumentMetaDataXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="DownloadDocument">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/DownloadDocument" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="RemoveDocument">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/RemoveDocument" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="LogoutSessionXMLString">
+<soap:operation soapAction="http://tempuri.org/IExternalSolutionExecution/LogoutSessionXMLString" style="document"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="ExternalSolutionExecutionService">
+<wsdl:port name="basicHttp" binding="tns:basicHttp">
+<soap:address location="https://decisioncentre.transunion.ca/V16/TU.IDS.ExternalServices_prod/SolutionExecution/ExternalSolutionExecution.svc"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

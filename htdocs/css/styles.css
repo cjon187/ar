@@ -1,0 +1,856 @@
+@media print {
+ 	body {
+  		background-image: none;
+  		background-color: white;
+ 	}
+
+ 	.hideonprint{
+ 		display:none;
+ 	}
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.bold{
+	font-size: bold;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+.hiddenClass{
+	display:none;
+}
+
+.hr-xs{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-color: #ccc;
+}
+.hr-sm{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-color: #ccc;
+}
+.hr-md{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-color: #ccc;
+}
+.hr-lg{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-color: #ccc;
+}
+.hr-xlg{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-color: #ccc;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-default {
+	border-radius: 0px !important;
+}
+.navbar-inverse {
+	border-radius: 0px !important;
+	background-image: linear-gradient(to bottom,#333 0,#222 100%);
+	/* background-image: linear-gradient(to bottom,#FF2828 0,#FF2828 100%); */
+	color: black;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="span"] {
+    margin: 0 !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+        .navbar-nav .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .navbar-nav .open .dropdown-menu > li > a {
+            line-height: 20px;
+        }
+        .navbar-nav .open .dropdown-menu > li > a,
+        .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px;
+        }
+        .dropdown-menu > li > a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.42857143;
+            color: #9d9d9d;
+            white-space: nowrap;
+        }
+        .navbar-header {
+            float: none;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            /*margin: 7.5px -15px;*/
+            margin: 7.5px 50px 7.5px -15px
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .navbar-text {
+            float: none;
+            margin: 15px 0;
+        }
+        /* since 3.1.0 */
+        .navbar-collapse.collapse.in {
+            display: block!important;
+        }
+        .collapsing {
+            overflow: hidden!important;
+        }
+    }
+
+
+
+#ar-page-title {
+	font-size:1.6em;
+	font-weight:bold;
+	color:#555;
+	margin-top: 10px;
+}
+
+/* Styles for the AR form partials */
+	.style1{
+		background-color: #ddd;
+	}
+
+	.input-group.input-group-xs,
+	.input-group.input-group-sm,
+	.input-group.input-group-md,
+	.input-group.input-group-lg{
+		width: 100%;
+	}
+
+	/* Fix for proper rounded corners when not using a label on ar-form */
+		.input-group .ar-form:first-child{
+			border-top-left-radius: 4px;
+		    border-bottom-left-radius: 4px;
+		}
+		.input-group .ar-form:last-child{
+			border-top-right-radius: 4px;
+		    border-bottom-right-radius: 4px;
+		}
+		.input-group .ms-parent:nth-child(2),
+		.input-group .ms-parent:nth-child(2) .ms-choice{
+			border-top-left-radius: 4px;
+		    border-bottom-left-radius: 4px;
+		}
+
+	.input-group-addon{
+		text-align:left;
+		font-weight:bold;
+	}
+	.input-group.required > span.ar-form:after {
+		content:"*";
+		color:red;
+		font-size: 1.3em;
+		line-height: 1;
+	}
+	/* Spacing needed for rows for this styling */
+		.input-group-spacing-xlg{
+			margin-top: 9px;
+		}
+		.input-group-spacing-lg{
+			margin-top: 7px;
+		}
+		.input-group-spacing, .input-group-spacing-md{
+			margin-top: 5px;
+		}
+		.input-group-spacing-sm{
+			margin-top: 3px;
+		}
+		.input-group-spacing-xs{
+			margin-top: 1px;
+		}
+
+	/* Z index fix for this style and multiselects */
+		.ar-form.form-control {
+			z-index: auto;
+		}
+
+	/*Multiselect style changes for this style*/
+		.ar-form.ms-parent.form-control {
+			padding: 1px 0px 1px 1px;
+			border-left: none;
+		}
+		.ar-form .ms-choice{
+			margin-top: -2px;
+			margin-left: -1px;
+			width: 100.5%;
+			padding: 1px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			border: 1px solid #ccc;
+			box-shadow: none;
+		}
+		.ar-form .ms-drop{
+			min-width: 100%;
+			width: auto;
+		}
+
+		.input-group .chosen-container-single .chosen-single{
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			background: white;
+			border: 1px solid #ccc;
+		}
+
+		.input-group-xxs .ar-form{
+			height: 20px !important;
+			padding: 4px 8px;
+			font-size: 11px;
+		}
+			.btn-input-group-xxs{
+				width: 100%;
+				height: 20px !important;
+				padding: 1px 2px;
+				font-size: 11px;
+			}
+			.input-group-xxs .input-group-addon .fa{
+				font-size: 14px;
+				vertical-align: 0;
+			}
+
+			.input-group-xxs .ar-form .ms-choice{
+				height: 20px !important;
+			}
+			.input-group-xxs .chosen-choices{
+				min-height: 20px !important;
+			}
+				.input-group-xxs .chosen-choices li.search-choice{
+					margin:1px 2px 1px 0;
+					padding: 1px 20px 1px 2px;
+					font-size: 0.9em;
+				}
+
+		.input-group-xs .ar-form{
+			height: 26px !important;
+			padding: 4px 8px;
+			font-size: 11px;
+		}
+			.btn-input-group-xs{
+				width: 100%;
+				height: 26px !important;
+				padding: 4px 8px;
+				font-size: 12px;
+			}
+		.input-group-xs .input-group-addon .fa{
+			font-size: 16px;
+			vertical-align: 0;
+		}
+
+		.input-group-xs .ar-form .ms-choice{
+			height: 26px !important;
+		}
+		.input-group-xs .chosen-choices{
+			min-height: 26px !important;
+			line-height: 24px;
+			padding: 0px 5px !important;
+		}
+			.input-group-xs .chosen-container-single .chosen-single{
+				margin:0 !important;
+				min-height: 26px !important;
+			}
+
+			.input-group-xs .chosen-choices .chosen-search-input{
+				height: 22px !important;
+			}
+			.input-group-xs .chosen-container-multi .chosen-choices li.search-choice{
+				margin:2px 2px 2px 0;
+				padding: 2px 20px 2px 3px;
+				font-size: 0.95em;
+			}
+
+		.input-group-sm .ar-form .ms-choice{
+			height: 30px !important;
+		}
+			.btn-input-group-sm{
+				width: 100%;
+				height: 30px !important;
+				padding: 7px 8px;
+				font-size: 13px;
+				line-height: 13px;
+			}
+			.input-group-sm .chosen-container-single .chosen-single{
+				margin:0 !important;
+				min-height: 30px !important;
+			}
+				.input-group-sm .chosen-container-single .chosen-single span,.input-group-sm .chosen-container-single .chosen-single div{
+					margin-top: 2px;
+				}
+			.input-group-sm .chosen-choices{
+				min-height: 30px !important;
+			}
+				.input-group-sm .chosen-container-multi .chosen-choices li.search-choice{
+					margin: 2px 5px 2px 0;
+  					padding: 3px 20px 3px 5px;
+					font-size: 1em;
+				}
+				.input-group-sm .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
+					top: 5px;
+				}
+
+		.input-group-md .ar-form .ms-choice{
+			height: 34px !important;
+		}
+			.btn-input-group-md{
+				width: 100%;
+				padding: 5px 8px;
+				height: 34px !important;
+			}
+			.input-group-md >span, .input-group-lg >span{
+				font-weight: 600;
+				font-size: 12px;
+			}
+			.input-group-md .chosen-choices{
+				min-height: 34px !important;
+			}
+			.input-group-md .chosen-container-single .chosen-single{
+				margin:0 !important;
+				min-height: 34px !important;
+			}
+				.input-group-md .chosen-container-single .chosen-single span,.input-group-md .chosen-container-single .chosen-single div{
+					margin-top: 3px;
+				}
+			.input-group-md .chosen-choices li.search-choice{
+				margin:1px 4px 1px 0;
+				padding: 2px 18px 2px 3px;
+				font-size: 1.1em;
+			}
+				.input-group-md .chosen-container-multi .chosen-choices li.search-choice{
+					margin: 2px 5px 2px 0;
+  					padding: 5px 20px 5px 6px;
+					font-size: 1.1em;
+				}
+				.input-group-md .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
+					top: 7px;
+				}
+
+		.input-group-lg .ar-form .ms-choice{
+			height: 38px !important;
+		}
+			.btn-input-group-lg{
+				width: 100%;
+				padding: 4px 8px;
+				font-size: 20px;
+				height: 38px !important;
+			}
+			.input-group-lg >span, .input-group-lg >span{
+				font-weight: 600;
+				font-size: 20px;
+			}
+			.input-group-lg .chosen-container-single .chosen-single{
+				margin:0 !important;
+				min-height: 46px !important;
+			}
+				.input-group-lg .chosen-container-single .chosen-single span,.input-group-lg .chosen-container-single .chosen-single div{
+					margin-top: 10px;
+					font-size: 16px;
+				}
+			.input-group-lg .chosen-container-multi .chosen-choices {
+				min-height: 46px !important;
+			}
+				.input-group-lg .chosen-container-multi .chosen-choices li.search-choice{
+					margin: 2px 5px 2px 0;
+  					padding: 6px 20px 6px 6px;
+					font-size: 1.2em;
+				}
+				.input-group-lg .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
+					top: 10px;
+				}
+
+		.input-group .ar-form .ms-choice > span{
+			padding-left: 15px;
+		}
+
+		@media (max-width: 1400px){
+			.input-group-xs>span:not(.no-scale), .input-group-sm>span:not(.no-scale), .input-group-md >span:not(.no-scale), .input-group-lg >span:not(.no-scale){
+				font-weight: 600;
+				font-size: 12x;
+				padding: 2px 6px 1px 6px;
+				min-width: 80px;
+			}
+			.input-group-xs .checkbox-fancy-input, .input-group-sm .checkbox-fancy-input, .input-group-md  .checkbox-fancy-input, .input-group-lg  .checkbox-fancy-input{
+				font-weight: 300;
+				font-size: 10px;
+				padding: 2px 6px 1px 6px;
+			}
+		}
+		@media (max-width: 1199px){
+			 .input-group-xs>span:not(.no-scale), .input-group-sm>span:not(.no-scale), .input-group-md >span:not(.no-scale), .input-group-lg >span:not(.no-scale){
+				/* font-weight: 300; */
+				font-size: 12px;
+				min-width: 80px;
+				padding: 2px 6px 1px 6px;
+			}
+			.resize-spacing > .col-md-1,.resize-spacing > .col-md-2,.resize-spacing > .col-md-3,.resize-spacing > .col-md-4,.resize-spacing > .col-md-5,.resize-spacing > .col-md-6,.resize-spacing > .col-md-7,.resize-spacing > .col-md-8,.resize-spacing > .col-md-9,.resize-spacing > .col-md-10,.resize-spacing > .col-md-11,.resize-spacing > .col-md-12{
+				margin-top: 2px;
+			}
+			.resize-spacing-lg > .col-md-1,.resize-spacing-lg > .col-md-2,.resize-spacing-lg > .col-md-3,.resize-spacing-lg > .col-md-4,.resize-spacing-lg > .col-md-5,.resize-spacing-lg > .col-md-6,.resize-spacing-lg > .col-md-7,.resize-spacing-lg > .col-md-8,.resize-spacing-lg > .col-md-9,.resize-spacing-lg > .col-md-10,.resize-spacing-lg > .col-md-11,.resize-spacing-lg > .col-md-12{
+				margin-top: 4px;
+			}
+
+			.resize-spacing .col-md-1 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-1 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-2 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-2 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-3 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-3 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-4 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-4 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-5 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-5 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-6 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-6 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-7 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-7 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-8 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-8 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-9 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-9 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-10 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-10 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-11 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-11 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-12 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-12 span.input-group-addon:not(.no-scale){
+				font-weight: 600;
+				font-size: 12px;
+				min-width: 130px;
+			}
+		}
+		@media (max-width: 992px){
+			.input-group-xs>span:not(.no-scale), .input-group-sm>span:not(.no-scale), .input-group-md >span:not(.no-scale), .input-group-lg >span:not(.no-scale){
+				font-weight: 300;
+				font-size: 12px;
+				min-width: 80px;
+				padding: 2px 6px 1px 6px;
+				/* min-width: min-width/2; */
+			}
+			.resize-spacing > .col-md-1,.resize-spacing > .col-md-2,.resize-spacing > .col-md-3,.resize-spacing > .col-md-4,.resize-spacing > .col-md-5,.resize-spacing > .col-md-6,.resize-spacing > .col-md-7,.resize-spacing > .col-md-8,.resize-spacing > .col-md-9,.resize-spacing > .col-md-10,.resize-spacing > .col-md-11,.resize-spacing > .col-md-12{
+				margin-top: 3px;
+			}
+			.resize-spacing-lg > .col-md-1,.resize-spacing-lg > .col-md-2,.resize-spacing-lg > .col-md-3,.resize-spacing-lg > .col-md-4,.resize-spacing-lg > .col-md-5,.resize-spacing-lg > .col-md-6,.resize-spacing-lg > .col-md-7,.resize-spacing-lg > .col-md-8,.resize-spacing-lg > .col-md-9,.resize-spacing-lg > .col-md-10,.resize-spacing-lg > .col-md-11,.resize-spacing-lg > .col-md-12{
+				margin-top: 4px;
+			}
+
+			.resize-spacing .col-md-1 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-1 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-2 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-2 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-3 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-3 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-4 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-4 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-5 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-5 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-6 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-6 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-7 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-7 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-8 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-8 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-9 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-md-9 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-10 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-10 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-11 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-11 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-md-12 span.input-group-addon:not(.no-scale),.resize-spacing-lg .col-md-12 span.input-group-addon:not(.no-scale){
+				font-weight: 600;
+				font-size: 12px;
+				min-width: 130px;
+			}
+		}
+		@media (max-width: 767px){
+			.input-group-xs>span:not(.no-scale), .input-group-sm>span:not(.no-scale), .input-group-md >span:not(.no-scale), .input-group-lg >span:not(.no-scale){
+				font-weight: 600;
+				font-size: 12px;
+				min-width: 130px;
+				padding: 4px 12px;
+				/* min-width: min-width/2; */
+			}
+			.resize-spacing > .col-sm-1,.resize-spacing > .col-sm-2,.resize-spacing > .col-sm-3,.resize-spacing > .col-sm-4,.resize-spacing > .col-sm-5,.resize-spacing > .col-sm-6,.resize-spacing > .col-sm-7,.resize-spacing > .col-sm-8,.resize-spacing > .col-sm-9,.resize-spacing > .col-sm-10,.resize-spacing > .col-sm-11,.resize-spacing > .col-sm-12{
+				margin-top: 3px;
+			}
+			.resize-spacing-lg > .col-sm-1,.resize-spacing-lg > .col-sm-2,.resize-spacing-lg > .col-sm-3,.resize-spacing-lg > .col-sm-4,.resize-spacing-lg > .col-sm-5,.resize-spacing-lg > .col-sm-6,.resize-spacing-lg > .col-sm-7,.resize-spacing-lg > .col-sm-8,.resize-spacing-lg > .col-sm-9,.resize-spacing-lg > .col-sm-10,.resize-spacing-lg > .col-sm-11,.resize-spacing-lg > .col-sm-12{
+				margin-top: 4px;
+			}
+
+			.resize-spacing .col-sm-1 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-1 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-2 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-2 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-3 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-3 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-4 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-4 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-5 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-5 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-6 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-6 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-7 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-7 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-8 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-8 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-9 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-9 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-10 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-10 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-11 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-11 span.input-group-addon:not(.no-scale),
+			.resize-spacing .col-sm-12 span.input-group-addon:not(.no-scale), .resize-spacing-lg .col-sm-12 span.input-group-addon:not(.no-scale){
+				font-weight: 600;
+				font-size: 12px;
+				min-width: 130px;
+			}
+		}
+
+	.input-span-min-xxs{
+		min-width: 50px;
+	}
+	.input-span-min-xs{
+		min-width: 75px;
+	}
+	.input-span-min-md{
+		min-width: 125px;
+	}
+	.input-span-min-xl{
+		min-width: 175px;
+	}
+	.input-span-min-30{
+		min-width: 30px;
+	}
+	.input-span-min-40{
+		min-width: 40px;
+	}
+	.input-span-min-50{
+		min-width: 50px;
+	}
+	.input-span-min-60{
+		min-width: 60px;
+	}
+	.input-span-min-70{
+		min-width: 70px;
+	}
+	.input-span-min-80{
+		min-width: 80px;
+	}
+	.input-span-min-85{    /*NEEDED FOR size 2 columns to fit yes/no*/
+		min-width: 85px;
+	}
+	.input-span-min-90{
+		min-width: 90px;
+	}
+	.input-span-min-100, .input-span-min-sm{
+		min-width: 100px;
+	}
+	.input-span-min-110{
+		min-width: 110px;
+	}
+	.input-span-min-120{
+		min-width: 120px;
+	}
+	.input-span-min-130{
+		min-width: 130px;
+	}
+	.input-span-min-140{
+		min-width: 140px;
+	}
+	.input-span-min-150, .input-span-min-lg{
+		min-width: 150px;
+	}
+	.input-span-min-160{
+		min-width: 160px;
+	}
+	.input-span-min-170{
+		min-width: 170px;
+	}
+	.input-span-min-250{
+		min-width: 250px;
+	}
+
+	textarea.ar-form {
+		font-size: 12px;
+		font-family: 'arial';
+	}
+
+	.ar-fieldset{
+		border: 1px solid #c2c2c2;
+		padding: 5px 10px 10px 10px;
+		margin-left: 0px;
+		background-color: #f4f4f4;
+		margin-top: 20px;
+	}
+		.ar-fieldset .row{
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+		.ar-legend{
+			font-size: 1.5em;
+			/* font-weight:bold; */
+			width: inherit;
+			padding: 0px 10px;
+			border-bottom: none;
+			margin-bottom: 5px;
+			color: black;
+			/* position:relative;
+			top:-5px; */
+		}
+		.like-fieldset-margin{
+			margin-left: 0px !important;
+			margin-right: 0px !important;
+		}
+
+	input.required_input_css, select.required_input_css, button.required_input_css, textarea.required_input_css{
+		background-color: #FDD7E4;
+	}
+	input.required_input_css-dark, select.required_input_css-dark , button.required_input_css-dark {
+		background-color: #FD9999;
+	}
+
+	.checkbox-fancy-container{
+		width: 100%;
+	}
+	.checkbox-fancy{
+		padding: 0px !important;
+		width: 30px;
+		text-align:center;
+		margin: auto;
+		border-bottom-left-radius: 4px !important;
+		border-top-left-radius: 4px !important;
+	}
+		.checkbox-fancy-check{
+			background-color: #9AFF9A;
+		}
+			.checkbox-fancy-check.style2{
+				background-color: #ccc;
+			}
+		.checkbox-fancy-close{
+			background-color: #FAAFBA;
+		}
+			.checkbox-fancy-close.style2{
+				background-color: #eee;
+			}
+		.checkbox-fancy > .fa{
+			text-align:center;
+		}
+		.checkbox-fancy > .fa-check{
+			color: #458B00;
+		}
+			.checkbox-fancy.style2 > .fa-check{
+				color: #fff;
+			}
+
+		.checkbox-fancy > .fa-close{
+			color: red;
+		}
+			.checkbox-fancy.style2 > .fa-close{
+				color: #d1d1d1;
+			}
+
+		.lock-addon{
+			background-color: #ddd !important;
+			cursor: not-allowed !important;
+		}
+			.lock-addon .lock-black{
+				color: black !important;
+				cursor: not-allowed !important;
+			}
+
+	.checkbox-fancy-input.style1{
+		background-color: #ddd !important;
+		font-weight:bold;
+	}
+		.checkbox-fancy-check + .checkbox-fancy-input.style2{
+			background-color: #fff !important;
+			font-weight:bold;
+		}
+		.checkbox-fancy-lock + .checkbox-fancy-input.style2{
+			background-color: #ddd !important;
+			font-weight:bold;
+		}
+
+	.checkbox-fancy-container.darkbackground .checkbox-fancy-input{
+		background-color: #ccc !important;
+	}
+
+	.not-allowed{
+		cursor:not-allowed !important;
+	}
+
+	/* STYLE USED FOR THE BOX ON DEALER PAGES DENOTING NO INFO  */
+	.noDealerInfoDiv {
+		padding-bottom:10px;
+		padding:10px;
+		background: #efefef;
+		margin:10px 0px;
+		border:1px solid #ccc;
+		text-align: center;
+		font-size: 1.3em;
+		font-weight:bold;
+	}
+
+	.table-sm>tbody>tr>td, .table-sm>tbody>tr>th, .table-sm>tfoot>tr>td, .table-sm>tfoot>tr>th, .table-sm>thead>tr>td, .table-sm>thead>tr>th {
+		padding: 4px !important;
+	}
+	.table-xs>tbody>tr>td, .table-xs>tbody>tr>th, .table-xs>tfoot>tr>td, .table-xs>tfoot>tr>th, .table-xs>thead>tr>td, .table-xs>thead>tr>th {
+		padding: 2px !important;
+	}
+	.table-xxs>tbody>tr>td, .table-xxs>tbody>tr>th, .table-xxs>tfoot>tr>td, .table-xxs>tfoot>tr>th, .table-xxs>thead>tr>td, .table-xxs>thead>tr>th {
+		padding: 0px !important;
+	}
+
+	.table-sm-font>tbody>tr>td,.table-sm-font>tbody>tr>th .table-sm-font>tfoot>tr>td, .table-sm-font>tfoot>tr>th, .table-sm-font>thead>tr>td, .table-sm-font>thead>tr>th {
+		font-size: 0.8em;
+	}
+
+.input-group .comiseo-daterangepicker-triggerbutton.ui-button {
+	border-radius: 0px;
+	height: inherit;
+	border: 1px solid #ccc;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	min-width: 0;
+	width: 100%;
+}
+	.input-group .comiseo-daterangepicker-triggerbutton.ui-button .ui-button-text{
+	background-color:white;
+	padding: 7px 10px 5px 15px;
+	font-size: 12px;
+	/* width: 100%; */
+	/* color: #bbb; */
+
+}
+	.input-group-xs .ui-button-text{
+		height: 26px;
+		line-height: 24px;
+	}
+	.input-group-sm .ui-button-text{
+		height: 28px;
+		line-height: 28px;
+	}
+	.input-group-md .ui-button-text{
+		height: 34px;
+		line-height: 32px;
+	}
+	.input-group-md .ui-button-text{
+		height: 40px;
+		line-height: 38px;
+	}
+
+
+	.input-group-xs.input-group-addon.tooltipstered{
+		padding: 3px 10px;
+		font-size: 10px !important;
+		line-height: 14px !important;
+	}
+	.input-group-sm.input-group-addon.tooltipstered{
+		padding: 3px 10px;
+		font-size: 15px !important;
+		line-height: 21px !important;
+	}
+
+/*------------------------------------------------------------------------------*/
+/*Styles for the AR Captcha*/
+	.captcha-false{
+		background-color: #FFC3CE;
+	}
+		.captcha-false i{
+			color: red;
+		}
+	.captcha-true{
+		background-color: #98FF98 !important;
+	}
+		.captcha-true i{
+			color: green;
+		}
+	.ar-captcha-addon i{
+		font-size: 20px;
+		width: 100%;
+	}
+	.captcha-refresh > i{
+		font-size: 18px;
+		width: 15px;
+	}
+
+	.padding-col-xxs{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+		.padding-col-xxs div[class^="col-"],
+		.padding-col-xxs div[class^=" col-"]{
+			padding-left:  0px;
+			padding-right: 0px;
+		}
+
+	.padding-col-xs{
+		margin-left: -2px;
+		margin-right: -2px;
+	}
+		.padding-col-xs div[class^="col-"],
+		.padding-col-xs div[class^=" col-"]{
+			padding-left:  2px;
+			padding-right: 2px;
+		}
+
+	.padding-col-sm{
+		margin-left:  -5px;
+		margin-right: -5px;
+	}
+		.padding-col-sm div[class^="col-"],
+		.padding-col-sm div[class^=" col-"]{
+			padding-left:  5px;
+			padding-right: 5px;
+		}
+
+	.padding-col-md{
+		margin-left:   -10px;
+		margin-right:  -10px;
+	}
+		.padding-col-md div[class^="col-"],
+		.padding-col-md div[class^=" col-"]{
+			padding-left:  10px;
+			padding-right: 10px;
+		}
+
+	/*DEFAULT FORM BOOTSTRAP*/
+	.padding-col-lg{
+		margin-left:   -15px;
+		margin-right:  -15px;
+	}
+		.padding-col-lg div[class^="col-"],
+		.padding-col-lg div[class^=" col-"]{
+			padding-left:  15px;
+			padding-right: 15px;
+		}
+	.padding-col-xlg{
+		margin-left:   -20px;
+		margin-right:  -20px;
+	}
+		.padding-col-xlg div[class^="col-"],
+		.padding-col-xlg div[class^=" col-"]{
+			padding-left:  20px;
+			padding-right: 20px;
+		}
+
+
+#menuSettingsIcon {
+	font-size:1.2em;
+}
+#menuSettingsIconMobileDiv {
+	display:none;
+}
+
+@media (max-width: 992px){
+	#menuSettingsIconMobileDiv {
+		display:block;
+	}
+	#menuSettingsIconDiv {
+		display:none;
+	}
+}

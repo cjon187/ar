@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Raleway');
+
+.container-fluid {
+	text-align:center;
+}
+.btn {
+	border-radius:0px;
+}
+h2 {
+	margin-bottom:20px;
+}
+.itemDiv {
+	min-height:200px;
+}
+.itemNum {
+	font-size:2.5em;
+	background-color:#9e2020;
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	line-height:50px;
+	margin:auto;
+}
+.itemDesc {
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size:1.5em;
+	line-height:1em;
+	margin:20px 0px;
+}
+.itemSubDesc {
+	font-size:0.8em;
+	line-height:1em;
+	font-style:italic;
+	margin-top:5px;
+	color:#ccc;
+}
+
+.bidsList {
+	padding:10px 10px 20px 0px;
+	border-bottom:1px dashed #efefef;
+	margin-bottom:20px;
+}
+
+.noBids {
+	font-size:1.2em;
+}
+
+.bid {
+	border-top:1px dashed #efefef;
+	padding-top:25px;
+	color:#ccc;
+}
+.bid:not(:first-of-type) {
+	margin-top:25px;
+}
+
+.bidAmount {
+	font-size:1.8em;
+}
+
+.bid:first-of-type .bidAmount {
+	font-size:3.5em;
+	color:yellow;
+}
+
+.bidDetails {
+	margin-top:10px;
+	color:#ccc;
+}
+
+html,body {
+	height:100%;
+}
+
+#bidsMainDiv {
+	background-image:url('wood_bg.jpg');
+	background-position: center top;
+	background-size: cover;
+	background-repeat: repeat;
+	min-height:100%;
+	text-align:center;
+	padding-top:30px;
+	color:white;
+}
+#bidsListDiv {
+	padding:40px 0px;
+}
+
+#donationsMainDiv {
+	background-image:url('building_render.jpg');
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:100%;
+	text-align:center;
+	padding-top:30px;
+	display:none;
+}
+
+@media (max-height: 850px) {
+	#donationsMainDiv {
+		min-height:1000px;
+	}
+}
+
+.sub {
+	font-family: 'Noto Serif JP', sans-serif;
+	font-style:italic;
+	font-size:2.5em;
+	line-height:1em;
+	padding:10px 0px;
+}
+.title {
+	font-family:Raleway, sans-serif;
+	font-size:4.2em;
+	line-height:1em;
+	border-top:1px solid #333;
+	border-bottom:1px solid #333;
+	padding:20px 0px;
+	margin:20px 0px;
+}
+.instructions {
+	margin-bottom:10px;
+	font-size:1.3em;
+	line-height:1.1em;
+}
+.subInstructions {
+	font-size:0.8em;
+	font-style:italic;
+}
+
+#bidsMainDiv .title {
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+
+
+
+#giftsDiv {
+	font-family: 'Noto Serif JP', sans-serif;
+	padding:30px 10px;
+	font-size:1.5em;
+	background-image:url('transWhite.png');
+	color:#777;
+}
+#giftsDivWrapper {
+	margin-top:10px;
+	padding:5px;
+	border:4px solid #fff;
+}
+#giftsTotal {
+	font-size:3em;
+	font-weight:bold;
+	line-height:1em;
+	color:#333;
+}
+#giftsGoal {
+	padding-top:30px;
+	color:#333;
+}

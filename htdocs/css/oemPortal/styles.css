@@ -1,0 +1,69 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed);
+
+html,body {background-color:#555}
+form {padding:0px;margin:0px}
+/* HEADER */
+
+.header_right {
+	text-align:right;
+	float:right;
+}
+
+  @media (max-width: 992px) {
+		.header_right {
+			text-align:left;
+			float:left;
+			margin-right:5px;
+	  }
+	}
+.btn {
+	border-radius:0px !important;
+}
+.row {max-width:1000px;font-size:1.05em;}
+.row,h1,h2,h3,h4,h5 {font-family: 'Roboto Condensed';}
+h1,h2,h3,h4,h5 {}
+h4 {font-size:1.5em;}
+.main_div {margin-top:50px;margin-bottom:50px;background-color:white;border-radius:5px;box-shadow: 0 0 10px 3px #111;min-height:100px;padding:10px 20px}
+.char {display:inline-block;font-family:arial;cursor:pointer}
+
+.box {background-color:white;border:1px solid #ccc;box-shadow: 0 0 5px #ccc;min-height:250px;margin:10px 0px}
+.box_header {background-color:#d71921;color:white;padding:5px;min-height:30px;text-align:center;font-weight:bold;}
+.box_loading {background-color:white;padding:20px 10px;display:none;text-align:center;color:#ccc;}
+.box_body {background-color:white;padding:10px;text-align:center;height:100%;}
+.no_padding {padding: 0 !important;margin: 0 !important;}
+
+.box_graph_legend {padding:5px 10px;font-size:0.7em;line-height:1.2em;font-weight:bold;color:#333}
+.box_walkin_graph {height:82px}
+
+.infobubble_div {color:white;font-size:1.2em;width:200px;line-height:1em;}
+
+table {border:0px;padding-bottom:5px;margin-bottom:15px}
+thead {background-color:#ccc;}
+th {padding:5px 0px;border:0px;background-color:#ccc;color:#333;font-size:0.9em}
+td {padding:5px 0px;line-height:1.1em;border:0px;border-top:1px solid #efefef;border-bottom:1px solid #efefef;font-size:0.85em;white-space:nowrap;}
+th:first-child, td:first-child { padding-left:10px }
+th:last-child, td:last-child { padding-right:10px }
+
+#languages {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.language {
+	margin:0px 1px;
+	display:inline-block;
+	color:blue;
+	cursor:pointer;
+}
+.languageSelected{
+	color: black;
+	cursor: default;
+}
+.languageSelected:hover{
+	color: black;
+}
+
+#disclaimerDiv {
+	line-height:1em;
+	margin-bottom:20px;
+}

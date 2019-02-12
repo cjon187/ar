@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Montserrat');
+body {
+	text-align:center;
+	font-family:"Montserrat";
+}
+.container-fluid {
+	padding-left:0px;
+	padding-right:0px;
+}
+.swal2-modal {
+	border-radius: 0px !important;
+}
+.swal2-modal button{
+	border-radius: 0px !important;
+}
+.btn {
+	border-radius:0px;
+}
+#headerDiv {
+	background-image: linear-gradient(to bottom,#333 0,#222 100%);
+}
+.navbar-inverse {
+	border:0px;
+}
+.headerTitle {
+	color:yellow;
+}
+#content {
+	padding:20px 0px;
+}
+#content.no_padding {
+	padding:0px;
+}
+.hrefDiv {
+	cursor:pointer;
+}
+#backDiv {
+	font-size:2em;
+	position:absolute;
+	padding-top:12px;
+}
+	@media (max-width: 767px) {
+		#backDiv {
+			font-size:2em;
+			position:relative;
+			padding-top:12px;
+		}
+	}
+.box {
+	background-color:#1993c2;
+	padding:20px;
+	color:white;
+	margin:10px auto;
+	max-width:300px;
+	border-radius:0px;
+	cursor:pointer;
+	font-family:"Oswald";
+}
+.box a {
+	color:white;
+}
+.box .glyphicon,.box .fa {
+	font-size:3em;
+}
+.box .title {
+	font-size:1.6em;
+	line-height:1em;
+	color:yellow;
+	margin-top:10px;
+}
+#addToCalendarBox {
+	cursor:pointer;
+}
+#addToCalendar {
+	margin:0px auto;
+}
+
+#calendarOptions {
+	margin-top:20px;
+	display:none;
+}
+.calendarItem{
+	background-color:white;
+	padding:20px;
+	color:#111;
+	margin-bottom:5px;
+	font-size:1.2em;
+}
+
+
+#expired {
+	font-size:1.3em;
+}
+
+
+#appraisalFieldsTable {
+	width:100%;
+	margin-bottom:5px;
+	font-size:1.1em;
+}
+#appraisalFieldsTable td {
+	padding:0px;
+	border:1px solid #ccc;
+}
+#appraisalFieldsTable td:first-of-type {
+	line-height:30px;
+	width:150px;
+}
+
+#appraisalFieldsTable select,#appraisalFieldsTable input{
+	width:100%;
+	height:30px;
+	border:0px;
+	padding:5px;
+}
+#appraisalFieldsTable select[disabled="disabled"]{
+	background-color:#eee;
+}
+
+#appraisalVehicleBtn {
+	width:100%;
+	margin-top:10px;
+}
+
+#appraisalResultsVehicle {
+	font-weight:bold;
+	font-size:1.4em;
+}
+#appraisalResults {
+	font-size:1.2em;
+	margin-top:30px;
+}
+#appraisalResultsSubtitle {
+	font-size:1.2em;
+}
+
+#appraisalResultsValues {
+	font-weight:bold;
+	font-size:1.4em;
+	color:green;
+}
+#appraisalDisclaimer {
+	font-size:0.9em;
+	margin-top:10px;
+}
+
+
+
+
+
+	.comparableVehicleDiv {
+		border:1px solid #ccc;
+		padding:10px;
+		margin-bottom:10px;
+		cursor:pointer;
+	}
+	.comparableVehicleDiv.recommended {
+		background-color:#e0ffe0;
+	}
+	.comparableVehicleDiv .label {
+		font-size:0.9em;
+	}
+	.comparableVehicleDiv .vehicleName {
+		margin-top:20px;
+	}
+	.comparableVehicleDiv .vehicleDetails {
+		margin-top:5px;
+	}
+	.comparableVehicleDiv .vehicleDetails .strong {
+		font-weight:bold;
+	}
+
+	.vehicleRecommended {
+		text-align:center;
+		color:#5cb85c;
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size:1.1em;
+		line-height:1em;
+		font-style:italic;
+		margin-bottom:10px;
+	}
+
+	.vehicleDetails {
+		font-size:0.9em;
+		margin-bottom:10px;
+	}
+	.vehicleSpecialDetails {
+		font-size:1.3em;
+		font-weight:bold;
+		color:#337AB7;
+		padding:5px;
+	}
+	.vehicleSpecialDetails.longVehicleDetails {
+		font-size:1em;
+	}
+	.vehicleDisclaimer {
+		font-size:0.9em;
+		margin-bottom:10px;
+	}
+	.vehicleDisclaimer.longVehicleDisclaimer {
+		font-size:0.8em;
+	}
+
+	.vehicleStock {
+		font-size:0.9em;
+		font-style:italic;
+		text-align:center;
+	}
+	.paymentDetails {
+		margin:20px 0px;
+	}
+
+	.paymentDetails .payment {
+		color:#5cb85c;
+		font-size:2.5em;
+		line-height:1em;
+		margin-bottom:5px;
+	}
+	.paymentDetails .paymentFrequency {
+		color:#333;
+		font-weight:bold;
+		line-height:1em;
+	}
+	.paymentDetails .paymentTrade {
+		color:#999;
+		font-size:0.9em;
+	}
+
+	.compareVehicleBtns {
+		margin-top:10px;
+	}
+	.compareVehicleBtns button {
+		margin-right:0px;
+	}
+	.vehicleImage {
+		padding:20px 0px 5px 20px;
+	}
+	.vehicleImage img {
+		width:100%;
+	}
+	.vehicleName {
+		font-size:1.5em;
+		line-height:1em;
+		font-weight:bold;
+		padding-bottom:5px;
+	}
+	.vehicleDescription {
+		color:#aaa;
+		line-height:1em;
+	}
+	#currentVehicleDiv {
+		font-weight:bold;
+	}
+	.comparableVehicleDiv.current {
+		background-color:#FEFFEF;
+	}
+
+	#footer {
+		margin:20px 0px;
+		border-top:1px solid #ddd;
+		padding-top:20px;
+		font-size:1em;
+		text-align:center;
+	}
+	.footerTitle {
+		font-weight:bold;
+	}
+	#mainDiv {
+		margin-top:20px;
+	}
+	#mainTitleDivWrapper {
+		/*background-color:#feffef;*/
+		background: rgba(51,121,183,1);
+		background: -moz-linear-gradient(top, rgba(51,121,183,1) 0%, rgba(40,96,144,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(51,121,183,1)), color-stop(100%, rgba(40,96,144,1)));
+		background: -webkit-linear-gradient(top, rgba(51,121,183,1) 0%, rgba(40,96,144,1) 100%);
+		background: -o-linear-gradient(top, rgba(51,121,183,1) 0%, rgba(40,96,144,1) 100%);
+		background: -ms-linear-gradient(top, rgba(51,121,183,1) 0%, rgba(40,96,144,1) 100%);
+		background: linear-gradient(to bottom, rgba(51,121,183,1) 0%, rgba(40,96,144,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3379b7', endColorstr='#286090', GradientType=0 );
+		color:white;
+
+		padding:20px 0px 10px 0px;
+		margin-bottom:20px;
+	}
+	#mainTitleDivWrapper a {
+		color:yellow;
+	}
+
+	#mainTitleDiv {
+		margin-bottom:40px;
+		font-size:1.4em;
+		text-align:left;
+	}
+	#mainTitleDiv p {
+		line-height:1.1em;
+	}
+	.mainLetterSection {
+		text-align:center;
+		margin-bottom:30px;
+	}
+	.mainLetterTitle {
+		margin-bottom:10px;
+		font-size:1.4em;
+		color:#1993C2;
+	}
+	.calendarIconDiv {
+		position:relative;
+		text-align:center;
+		margin:auto;
+	}
+	.calendarIconDiv img{
+		width:140px;
+	}
+	.calendarIconMonth {
+		position:absolute;
+		width:100%;
+		color:white;
+		text-align:center;
+		text-transform: uppercase;
+		font-weight:bold;
+		line-height:40px;
+	}
+	.calendarIconDay {
+		position:absolute;
+		top:50px;
+		width:100%;
+		color:#333;
+		font-weight:bold;
+		text-align:center;
+		text-transform: uppercase;
+		font-size:3.2em;
+		line-height:60px;
+	}
+	.calendarIconTime {
+		position:absolute;
+		top:105px;
+		width:100%;
+		color:#333;
+		font-weight:bold;
+		text-align:center;
+		text-transform: uppercase;
+		font-size:1.2em
+		line-height:30px;
+	}
+	#appointmentCalendarIconDiv {
+		margin:20px 0px;
+	}
+	#appointmentCalendarIconDiv .calendarIconDiv{
+		display:inline-block;
+		border-radius:7px;
+		box-shadow: 0px 0px 5px #333;
+	}
+	.mainLetterSectionTitle {
+		text-align:left;
+		border-bottom:1px dashed #ccc;
+		font-size:1.5em;
+		color:#1993C2;
+		margin-bottom:20px;
+	}
+	#changeAppointment {
+		font-size:0.8em;
+	}
+	#promotionSection .mainLetterSectionBody{
+		font-size:1.2em;
+		text-align:left;
+	}
+	#contestDiv {
+		text-align:center;
+	}
+	#contestEntryEntered {
+		font-weight:bold;
+		color:#449D44;
+	}
+	#contestDetailsBtnDiv {
+		font-size:0.9em;
+		margin-top:5px;
+	}
+	#contestDescription {
+		font-size:1.1em;
+	}
+	#contestDisclaimer {
+		font-size:0.8em;
+		margin-top:20px;
+	}
+
+
+	#contactUsDiv  .mainLetterSectionBody{
+		text-align:left;
+		font-size:1.2em;
+	}
+	.contactUsIcon {
+		display:inline-block;
+		min-width:120px;
+	}
+	.contactUsIcon i{
+		min-width:40px;
+		text-align:center;
+	}
+
+	.pageTitleDiv {
+		margin:20px 0px;
+		font-size:1.2em;
+	}
+
+	.pageTitle {
+		font-weight:bold;
+		border-bottom:1px dashed #ccc;
+		font-size:1.5em;
+		color:#1993C2;
+		padding-bottom:10px;
+		margin-bottom:20px;
+	}
+	.pageSubTitle {
+		font-weight:bold;
+		font-size:1.1em;
+	}
+	.pageSection {
+		margin-bottom:30px;
+	}
+
+	.calendarItemDiv {
+		min-height:100px;
+		margin:10px 0px;
+		border:1px solid #ccc;
+		padding:20px;
+	}
+	.calendarDownload {
+		font-size:1.3em;
+		line-height:100px;
+	}
+	.calendarIcon img{
+		height:150px;
+	}
+	.calendarDescription {
+		margin:10px;
+		font-size:1.2em;
+	}
+	#notFoundDiv {
+		text-align:center;
+		margin:30px 0px;
+	}
+	#notFoundTitle {
+		font-size:5em;
+		line-height:1em;
+	}
+	#notFoundDescription {
+		font-size:2em;
+	}
+
+
+	#themeDiv {
+		margin:10px;
+		text-align:center;
+	}
+	#themeImageDiv{
+		display: inline-block;
+		padding:10px;
+		border:1px solid #ccc;
+	}
+
+
+
+	#maximizeTradeTitle {
+	  padding:0rem;
+	  text-align:center;
+	}
+	#maximizeTrade .codeTradeInDescription {
+	  display: flex;
+	  height:400px;
+	}
+
+	@media (max-width: 992px) {
+	  #maximizeTrade .codeTradeInDescription {
+	    height:auto;
+	    padding:60px 0px 20px 0px;
+	  }
+	}
+	#maximizeTrade .center{
+	  margin: 0 auto;
+	  width: 80%;
+	}
+
+	#maximizeTrade .trade-in-text{
+	  margin:auto;
+	  padding: 0 0 20px;
+	}
+	#maximizeTrade .trade-in-text-title {
+	  font-size:1.2em;
+	  font-weight:bold;
+	}
+
+	.highlightMenu a {
+		color:yellow !important;
+	}
+
+	#noUpcomingEventDiv {
+		font-size:1.3em;
+		margin:30px 0px;
+	}
+
+
+	#appointmentActionDiv {
+		margin:40px 0px;
+	}
+
+	.vehicleActions {
+		margin:15px 0px;
+	}
+	.offersBoxWrapper {
+		display:inline-block;
+		margin:0px 5px 5px 5px;
+	}
+	.offersBox {
+		width:250px;
+		margin:auto;
+		padding:5px;
+		border-radius:3px;
+		box-shadow: 0px 0px 5px #333;
+	}
+	#vehicleOffersSection .offersBox {
+		margin-bottom:20px;
+		cursor:pointer;
+	}
+
+	.offersBox img {
+		display:inline-block;
+	}
+	.offersName {
+		padding:5px 0px;
+		font-weight:bold;
+		font-size:1.1em;
+		color:#111;
+	}
+	#myOfferModal .modal-content {
+		border-radius:0px;
+	}
+
+	#myOfferModalSubtitle {
+		font-size:1.1em;
+	}
+	#myOfferIcon {
+		width:100%;
+	}
+	#myOfferName {
+		font-size:1.6em;
+		font-weight:bold;
+	}
+
+	#myOfferDetails {
+		font-size:1.3em;
+	}
+	#myOfferDisclaimer {
+		margin-top:20px;
+		font-size:0.9em;
+	}
+	#myOfferClaimed {
+		margin-bottom:10px;
+		font-weight:bold;
+		color:#449D43;
+	}

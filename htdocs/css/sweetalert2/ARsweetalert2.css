@@ -1,0 +1,34 @@
+@import 'sweetalert2.min.css';
+
+.swal2-overlay {
+  z-index:10000 !important;
+}
+.swal2-modal {
+  z-index:10001 !important;
+}
+
+.swal2-container h2 {
+  line-height:1em;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.swal2-content{
+    font-size: 16px;
+}
+
+.ARAlertProgressDiv{
+    background: none;
+    border:2px solid #3fc3ee;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+
+.swal2-content .ARAlertProgressBar{
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #3fc3ee;
+  width: 0;
+}

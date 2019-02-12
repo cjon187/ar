@@ -1,0 +1,14 @@
+*
+!.gitignore
+!static/
+!static/images/**/*.gif
+!static/images/**/*.png
+!static/images/**/*.jpeg
+!static/images/**/*.jpg
+!static/css/**/*.css
+!static/css/**/*.otf
+!static/css/**/*.ttf
+!static/css/**/*.woff
+!static/css/**/*.woff2
+!static/js/**/*.js
+!*/

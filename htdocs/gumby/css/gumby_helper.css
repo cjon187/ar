@@ -1,0 +1,73 @@
+html {line-height:normal}
+.row {max-width:100%}
+/*table, table tr td, table tr th { background-color:transparent;border:0px;padding:0px}*/
+img {display:block}
+.input.textarea {padding:10px;line-height:1.5em}
+a {cursor:pointer}
+.clearDiv{ display: block;position: relative;}
+.clearDiv:after{clear: both;content: "";display: block;}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 480px) and (orientation: portrait){
+  .desktop {display:none}
+  .desktop_right {margin: 0 auto; text-align:left;width:100%}
+  .desktop_left {margin: 0 auto; text-align:left;width:100%}
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-width: 640px) and (orientation: landscape){
+  .desktop {display:none}
+  .desktop_right {margin: 0 auto;text-align:left;width:100%}
+  .desktop_left {margin: 0 auto; text-align:left;width:100%}
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-width: 640px){
+  .desktop {display:none}
+  .desktop_right {margin: 0 auto; text-align:left;width:100%}
+  .desktop_left {margin: 0 auto; text-align:left;width:100%}
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  .desktop {display:none}
+  .desktop_right {margin: 0 auto; text-align:left;width:100%}
+  .desktop_left {margin: 0 auto; text-align:left;width:100%}
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .desktop {display:none}
+  .desktop_right {float:right;text-align:right;width:100%}
+  .desktop_left {float:left;text-align:left;width:100%}
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){  
+  .desktop_right {float:right;text-align:right;width:100%}
+  .desktop_left {float:left;text-align:left;width:100%}
+}
+
+/*Will take out margin-top from MarginCentered Elements*/
+@media screen and (max-width: 767px){
+	.marginCentered{margin-top: 5px !important;}
+}
+
+
+
+.row.no_gap .column,.row.no_gap  .columns { margin-left: 0;}
+
+.row.no_gap .one.column { width: 8.33333%; }
+.row.no_gap .one.columns { width: 8.33333%; }
+.row.no_gap .two.columns { width: 16.6666666%; }
+.row.no_gap .three.columns { width: 25%; }
+.row.no_gap .four.columns { width: 33.333333%; }
+.row.no_gap .five.columns { width: 41.66666666%; }
+.row.no_gap .six.columns { width: 50%; }
+.row.no_gap .seven.columns { width: 58.33333333%; }
+.row.no_gap .eight.columns { width: 66.666666666%; }
+.row.no_gap .nine.columns { width: 75%; }
+.row.no_gap .ten.columns { width: 83.33333333333%; }
+.row.no_gap .eleven.columns { width: 91.66666666%; }
+.row.no_gap .twelve.columns { width: 100%; }
+

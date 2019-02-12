@@ -1,0 +1,114 @@
+
+body {
+	background-color:#555;
+}
+
+#main {
+	background-color:white;
+	border-radius:5px;
+	padding:20px;
+	margin:20px 0px;
+}
+#header {
+	padding-bottom:20px;
+}
+
+#headerTitle {
+	font-size:2.3em;
+	font-weight:bold;
+	color:#333;
+	line-height:1em;
+}
+
+#headerSubTitle {
+	font-size:1.5em;
+	line-height:1em;
+	color:#999;
+}
+
+#loginInfo {
+	text-align:right;
+}
+
+#dealerName {
+	font-size:1.5em;
+	color:#999;
+	line-height:1em;
+}
+.red {
+	color:red;
+}
+
+#loginDiv label {
+	padding:0px;
+	margin:0px;
+
+}
+
+#loginDiv .alert {
+	padding:4px;
+	font-weight:bold;
+	min-width:200px;
+	margin:0px 10px;
+}
+
+#salesrepsDiv {
+	padding:20px 0px;
+	border-top:1px solid #ccc;
+	/* border:1px solid #ccc;
+	border-radius:10px;
+	padding:20px; */
+}
+
+#noSalesreps {
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	color:#333;
+}
+
+#salesrepTbl thead th {
+	border:0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+#salesrepTbl tbody tr td {
+	border:0px;
+}
+
+#salesrepTbl tbody tr td:first-of-type {
+}
+
+#salesrepTbl thead tr th:not(:first-of-type) ,#salesrepTbl tbody tr td:not(:first-of-type) {
+	text-align:center;
+	width:100px;
+}
+
+#salesrepTbl tbody tr td:not(:first-of-type) input {
+	text-align:center;
+} 
+
+.dateDiv {
+	font-size:2em;
+	color:#aaa;
+	margin-bottom:10px;
+}
+.dateDiv .dateDay {
+	color:black;
+}
+
+.displaySalesrep  .salesrepName {
+	color:#333;
+	font-size:1.4em;
+}
+.displaySalesrep .salesrepActions {
+	color:#337AB7;
+	cursor:pointer;
+	width:30px;
+	margin:4px;
+}
+.editSalesrep {
+	display:none;
+	color:blue;
+	cursor:pointer;
+}

@@ -1,0 +1,266 @@
+html,body {
+	/* background-color:#fafafa; */
+	background-color:white;
+}
+hr {
+	margin-top:10px;
+}
+table {
+	margin-bottom:0px !important;
+}
+
+.page:not(:first-of-type) {
+	page-break-before: always !important;
+	padding-top:20px;
+}
+.page .titleDiv {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	/* border-bottom:2px solid #ccc; */
+}
+.page .titleDiv .title {
+	font-size:1.5em;
+	line-height:1em;
+	font-weight:bold;
+	white-space:nowrap;
+}
+
+.page {
+	/* padding-bottom:20px; */
+}
+
+#snapshotType {
+	color:#777;
+	font-size:1.1em;
+}
+
+#summaryChartDescription {
+	line-height:1em;
+	font-size:0.8em;
+	text-align:center;
+	color:#555;
+	padding:0px 30px;
+}
+
+.sectionDiv {
+	border:1px solid #ccc;
+	border-radius:5px;
+	background-color:white;
+	margin-bottom:35px;
+}
+
+.section {
+	margin:5px;
+}
+
+.sectionDescriptionDiv {
+	margin-bottom:10px;
+	font-size:0.9em;
+	line-height:1em;
+	color:#555;
+}
+
+.sectionBody {
+	text-align:left;
+	padding:10px;
+}
+
+
+.sectionDivider {
+	border-top:1px solid #ddd;
+	margin:20px;
+}
+
+.sectionHeader {
+	margin:10px 0px;
+}
+
+.sectionHeaderTitle {
+	font-size:2.3em;
+	color:#333;
+	line-height:1em;
+	display:inline-block;
+}
+.sectionHeaderSubTitle {
+	font-size:1.5em;
+	color:#555;
+	line-height:1em;
+	display:inline-block;
+	margin-left:10px;
+}
+
+.fourTbl, .segmentTbl {
+	width:100%;
+}
+.summaryLabel {
+	color:#555;
+	line-height:1em;
+}
+.summaryNum {
+	color:#333;
+	font-size:1.2em;
+	font-weight:bold;
+	line-height:1em;
+}
+.summaryLabelDescription {
+	font-size:0.7em;
+	font-style:italic;
+}
+
+.fourTbl {
+	font-size:1.2em;
+	text-align:center;
+}
+
+.fourTbl td {
+	padding:20px 10px;
+}
+
+.fourTbl tr:first-of-type td {
+	border-bottom:1px solid #ccc;
+}
+.fourTbl td:first-of-type {
+	border-right:1px solid #ccc;
+	width:50%;
+}
+
+.sectionDescriptionDiv .summaryNum {
+	font-size:1em;
+}
+
+.pad_bottom td {
+	padding-bottom:10px;
+}
+
+.summaryTbl:not(.notFull) {
+	width:100%;
+}
+.subSummaryTbl {
+	font-size:0.8em;
+	margin-top:5px;
+}
+.subSummaryTbl td {
+	padding:0px;
+	border:0px !important;
+}
+.summaryTbl td:first-of-type {
+	text-align:left;
+}
+.summaryTbl td:last-of-type {
+	text-align:right;
+}
+
+.tblLabel {
+	color:#555;
+	padding-right:20px;
+	line-height:1em;
+}
+
+.summaryDiv {
+	font-size:1.2em;
+	text-align:center;
+}
+.summaryDiv .summaryNum {
+	font-size:1.7em;
+	line-height:1.1em;
+	color:#0075c2;
+}
+
+.funnelTitle {
+	font-size:0.9em;
+	line-height:1em;
+	color:#478DBB;
+	text-align:center;
+	z-index:200;
+}
+
+
+.sectionTbl > tbody > tr > td {
+	padding:0px 40px;
+}
+.sectionTbl > tbody > tr > td:first-of-type {
+	padding-left:10px ;
+}
+.sectionTbl > tbody > tr > td:not(:last-of-type) {
+	border-right:1px solid #ccc;
+}
+#vehicleModelSectionTbl {
+	width:100%;
+}
+#vehicleModelSectionTbl > tbody > tr > td {
+	padding:0px 25px;
+	font-size:0.9em;
+}
+#previousEventsTbl {
+	font-size:0.8em;
+}
+#previousEventsTbl th {
+	background-color:#D9EDF7;
+	padding-bottom:2px;
+}
+#previousEventsTbl th:not(:first-of-type),#previousEventsTbl td:not(:first-of-type) {
+	text-align:center;
+}
+#previousEventsTbl td:nth-child(odd) {
+	background-color:#f9f9f9;
+}
+#previousEventsTbl .leftBorder {
+	border-left:1px solid #ccc;
+}
+.glyphicon-ok {
+	color:green;
+}
+.glyphicon-remove {
+	color:red;
+}
+#ndncSection {
+	border:1px solid #BCE8F1;
+	background-color:#D9EDF7;
+	padding:10px;
+	border-radius:5px;
+}
+#ndncTbl {
+	padding:0px;
+	width:100%;
+	border:1px solid #ddd;
+	border-radius: 3px;
+	min-width:300px;
+}
+#ndncTbl >tbody > tr:first-of-type {
+	background-color:#BCE8F1;
+	color:#31708F;
+}
+#ndncTbl td {
+	padding:3px 5px;
+}
+#glossaryTbl {
+	font-size:0.9em;
+	color:#555;
+	margin-bottom:0px;
+}
+#glossaryTbl tr:first-of-type td {
+	border-top:0px;
+}
+#glossaryTbl tr td:first-of-type {
+	color:#333;
+	padding-right:30px;
+	font-weight:bold;
+	line-height:1em;
+}
+
+.snapshotSummarySection {
+	margin-top:15px;
+	margin-bottom:25px;
+}
+.snapshotSummarySectionTitle {
+	font-size:1.2em;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+.snapshotSummarySectionDetails {
+	color:#777;
+	font-size:0.9em;
+}
+.snapshotSummarySectionDetails .summaryNum {
+	font-size:1em;
+}

@@ -1,0 +1,93 @@
+week: Week
+coming_soon: images/comingsoon.png
+no_events_url: images/noevents.png
+appointsments_url: appointments/indexEmbedNew.php
+week1: images/week1.png
+week2: images/week2.png
+week3: images/week3.png
+week4: images/week4.png
+week5: images/week5.png
+appts_caps: APPTS
+shows_caps: SHOWS
+sales_caps: SALES
+solds_caps: SOLDS
+sold_caps: SOLD
+closing_caps: CLOSING
+salesreps_caps: SALESREPS
+back_to_main: Back to Main
+see_new_sales: See New Sales
+see_used_sales: See Used Sales
+OC: OC
+dealership: Dealership
+dealerships: Dealerships
+salesperson: Salesperson
+ups: "Up's"
+sales: Sales
+closing: Closing
+appts: Appts
+goal: Goal
+pace: Pace
+kept: Kept
+challenge_board_totals: Challenge Board Totals
+loading_caps: LOADING...
+total_sales: TOTAL SALES
+total_new_sales: TOTAL NEW SALES
+total_used_sales: TOTAL USED SALES
+no_events: NO EVENTS
+rep: Rep
+appts2: Appts
+deals: Deals
+salesreps: Salesreps
+total: Total
+appointments_made: Appointments Made
+week6: images/week6.png
+
+appt_goal: Appt Goal
+appt_set: Appt Set
+appt_pace: Appt Pace
+appt_shows: Appt Shows
+appt_goal: Appt Goal
+appt_goal: Appt Goal
+all_shows: All Shows
+sold: Sold
+sold_goal: Sold Goal
+sold_pace: Sold Pace
+
+new: NEW
+used: USED
+
+username: Username
+password: Password
+login: Log In
+logout: Log Out
+forgot_password: Forgot your password?
+invalid_login: Invalid Login
+change_board: Change Board
+
+select_board: Select Challenge Board
+no_boards_found: No Challenge Boards found
+no_record: This Email Address is not registered
+email_me: Email Me
+reset_instructions: We will send you an email with instructions on how to reset your password.
+sending_email: Sending Email...
+email_success: Email sent. Please check our inbox to reset your password.
+login_banner_image: defaultBannerLoginImage
+
+change_password:
+  title: Change Your Account Password
+  updating_password: Updating Password
+  password_match: The passwords do not match
+  enter_password: Please enter a password
+  password_updated: Password now updated
+  new_password: New Password
+  confirm_new_password: Confirm New Password
+  change_password: Change Password
+  back_to_account: Back To Your Account
+
+timer:
+  starts: Sales Challenge Begins In:
+  ends: Sales Challenge Ends In:
+  days: Days
+  hours: Hours
+  minutes: Minutes
+  seconds: Seconds

@@ -1,0 +1,10 @@
+
+	.title {font-weight:bold;font-size:15pt;display:inline}
+	.productTbl {border-collapse:collapse;width:100%;}
+	.productTbl td {border:1px solid black;padding:5px;margin:0px;}
+	.signatureTbl {border-collapse:collapse;width:100%;}
+	.signatureTbl td {border:1px solid black;padding:5px;margin:0px;}
+
+	.services td {width:500px;vertical-align:top;border-bottom:1px solid black;padding:5px;}
+
+	.section {width:150px;}

@@ -1,0 +1,57 @@
+week: Woche
+coming_soon: images/comingsoon-de.png
+no_events_url: images/noevents-de.png
+appointsments_url: appointments/indexEmbedNewDE.php
+week1: images/week1-de.png
+week2: images/week2-de.png
+week3: images/week3-de.png
+week4: images/week4-de.png
+week5: images/week5-de.png
+appts_caps: Termine
+shows_caps: Erschienen
+sales_caps: Verkauf
+solds_caps: VERKAUFT
+sold_caps: VERKAUFT
+closing_caps: Abschluss
+salesreps_caps: SALESREPS-de
+back_to_main: Back to Main-de
+see_new_sales: See New Sales-de
+see_used_sales: See Used Sales-de
+OC: Alternativkosten
+dealership: Dealership
+dealerships: Dealerships
+salesperson: Verkäufer
+ups: Laufkundschaft
+sales: Verkauf
+closing: Abschluss
+appts: Termine
+goal: Ziel
+pace: Abweichung
+kept: Erschienene Termine
+challenge_board_totals: Übersicht der Challenge Board
+loading_caps: WIRD GELADEN
+total_sales: VERKAUFTE AUTOS
+total_new_sales: TOTAL NEW SALES-de
+total_used_sales: TOTAL USED SALES-de
+no_events: KEINE EVENTS
+rep: Rep-de
+appts2: Appts-de
+deals: Deals-de
+salesreps: Salesreps-de
+total: Vereinbarte Termine
+appointments_made: \N
+week6: images/week6.png
+
+appt_goal: Appt Goal -DE
+appt_set: Appt Set -DE
+appt_pace: Appt Pace -DE
+appt_shows: Appt Shows -DE
+appt_goal: Appt Goal -DE
+appt_goal: Appt Goal -DE
+all_shows: All Shows -DE
+sold: Sold -DE
+sold_goal: Sold Goal -DE
+sold_pace: Sold Pace -DE
+
+new: NEW
+used: USED

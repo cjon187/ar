@@ -1,0 +1,102 @@
+
+	html,body {
+		background-color:#333;
+		height:100%;
+	}
+	.container {
+		background-color:white;
+		box-shadow: 0px 5px 10px black;
+	}
+
+	#headerContainer {
+		background-color:black;
+		color:white;
+	}
+
+	#headerContainer #umLogoDiv {
+		font-size:2em;
+		font-weight:bold;
+		line-height:1em;
+	}
+	#arlogoDiv {
+		text-align:right;
+	}
+
+	#contentContainer {
+		min-height:300px;
+	}
+
+	#footerContainer {
+		background-color:#333;
+		color:white;
+		min-height:80px;
+		font-size:1em;
+		text-align:center;
+	}
+	.mainDiv {
+		padding:20px;
+	}
+	#contentContainer .mainDiv {
+		padding:20px 5px;
+	}
+
+
+	.section {
+		padding:10px 20px;
+		background-color:#f7f7f7;
+		border:1px solid #ccc;
+		border-radius:3px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.section .title {
+		font-size:1.3em;
+		padding:10px 0px;
+		font-weight:bold;
+	}
+
+	 .section:last-child {
+
+	 	border-bottom:1px solid #ccc;
+	 }
+	.sectionButtons button {
+		width:100%;
+		margin-bottom:5px;
+	}
+	#videosTable td {
+	 	cursor:pointer;
+	}
+	#videosTable td.selected {
+		background-color:#337ab7;
+		color:white;
+	}
+	 #videosTable td:not(.selected):hover {
+	 	background-color:#eee;
+	 }
+	 #videosTable td:last-child {
+	 	border-bottom:1px solid #ccc;
+	 }
+
+	.sectionTable {
+		font-size:0.9em;
+	}
+
+	.sectionTable thead th{
+		background-color:#ccc;
+	}
+
+	.sectionTable tr {
+		background-color:white;
+	}
+
+	.sectionTable tr.notFound{
+		font-weight:normal;
+	}
+
+	.sectionTable tr:hover{
+		background-color:#eee;
+		cursor:pointer;
+	}
+	.sectionTable td{
+		padding:10px;
+	}

@@ -1,0 +1,14 @@
+Options -Indexes
+IndexIgnore *
+
+AddType application/octet-stream .dbf
+php_value max_input_vars 100000
+
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .php
+
+php_value default_charset "UTF-8"
+
+#Set the fake forwarded address to mimic the AWS load balancers
+SetEnvIf REMOTE_ADDR "(.*)" HTTP_X_FORWARDED_FOR=$1
+

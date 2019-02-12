@@ -1,0 +1,6 @@
+<FilesMatch "rsvpreport.php">
+	AuthType Basic
+	AuthName "Authorization Required"
+	AuthUserFile  realpath(__FILE__)../../.htaccess
+	Require valid-user
+</FilesMatch>

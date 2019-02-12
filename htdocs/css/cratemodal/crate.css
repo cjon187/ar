@@ -1,0 +1,53 @@
+.crate-contain {
+	background-color: #fff;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.crate-content {
+	width: 600px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px #000;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+
+.crate-body {
+	background-color:#fff;
+	color:#191919;
+	padding:5px;
+	text-align: left;
+} 
+
+/*optional below here*/
+.crate-title {
+	background-color: #4184c4;
+	color: #fff;
+	padding: 5px;
+	height: 20px;
+}
+
+.crate-title-error {
+	background-color: #cc0000;
+}
+
+.crate-close:after {
+content: 'X';
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20enco…%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.crate-footer {}
+
+ul.errors li {
+	color: #cc0000;
+}
+

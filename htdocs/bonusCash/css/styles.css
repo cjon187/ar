@@ -1,0 +1,985 @@
+
+
+	@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+	body,html {
+		font-family:'Roboto';
+	}
+
+	.container-fluid {
+		margin:0px;
+		padding:0px;
+	}
+	.btn {
+		border-radius:0px;
+	}
+
+	select[readonly="readonly"],input[readonly="readonly"],
+	select[disabled="disabled"],input[disabled="disabled"] {
+		background-color:#EBEBE4;
+		color:#ccc;
+	}
+	.section {
+		margin:10px 0px 20px 0px;
+	}
+
+	#header {
+		padding:30px 0px;
+		background-color:white;
+	}
+	#headerSaleInfo {
+		min-width:300px;
+		padding:10px 30px;
+		border:1px solid #aaa;
+		border-radius:5px;
+	}
+
+	#headerSaleTitle {
+		margin-bottom:5px;
+		border-bottom:1px solid #333;
+		font-weight:bold;
+
+	}
+	#headerSaleDealerAddressInfo {
+		font-size:0.9em;
+	}
+	#headerSaleCalendar {
+		text-align:center;
+		border:1px solid #111;
+	}
+	#headerSaleMonth,#headerSaleSameMonth {
+		background-color:#111;
+		color:red;
+	}
+
+	#headerSaleDay,#headerSaleSameDay {
+		padding:10px 5px;
+		font-weight:bold;
+		font-size:1.5em;
+	}
+	#headerSaleSameMonth {
+		font-size:1.2em;
+	}
+
+	#headerSaleSameDay {
+		font-size:1.8em;
+	}
+
+	#headerSaleDealerName {
+		color:#333;
+		font-weight:bold;
+		line-height:1em;
+	}
+
+	#headerSaleDealerInfo {
+		color:#777;
+		font-size:1em;
+		line-height:1em;
+	}
+	#headerSaleBtn {
+		margin-top:10px;
+	}
+
+	#logoImage {
+		cursor:pointer;
+	}
+	.section_title {
+		font-size:1.5em;
+		line-height:1em;
+		font-family:'Raleway';
+		text-align:center;
+		color:white;
+		padding:10px;
+		background-color:black;
+	}
+	.section_subtitle {
+		font-size:1.5em;
+		line-height:1em;
+		padding:10px;
+
+		text-align:left;
+		color:#333;
+		padding:10px 0px;
+		background-color:transparent;
+		font-weight:bold;
+	}
+
+	.color_1 .section_subtitle {
+		color:#F0B51C;
+	}
+	.section_body {
+		background-color:white;
+		padding:10px;
+		text-align:center;
+	}
+
+
+	#codeSection {
+		padding:30px 0px;
+	}
+
+	#codeSectionTitle {
+		font-size:2.5em;
+		line-height:1em;
+		margin-top:30px;
+		color:black;
+		text-align:center;
+		font-weight:bold;
+	}
+
+	#codeFormTitle {
+		font-size:1.2em;
+		text-align:center;
+		padding:5px 0px 20px 0px;
+		color:white;
+    	color:#737373;
+	}
+	#codeForm {
+		/* border:5px solid #b8b8b8; */
+		border-radius:5px;
+	}
+	#codeForm input{
+		font-size:1.3em;
+		border-radius:0px;
+		text-align:center;
+	}
+	#codeImage {
+		margin:auto;
+	}
+
+	#coffeeStainDiv {
+		position:absolute;
+		width:100%;
+		top:-50px;
+		padding:0px 30px;
+	}
+	#coffeeStainDiv img {
+		width:200px;
+	}
+	#codeIcons {
+		width:100%;
+		border-bottom:1px solid white;
+		margin-bottom:100px;
+		margin-top:50px;
+	}
+	.codeIcon {
+		padding:30px 0px;
+		width:100%;
+	}
+	.codeIcon img {
+		display:block;
+		margin:auto;
+	}
+	.codeIcon .iconDescription {
+		color:white;
+		font-size:1.5em;
+		line-height:1.1em;
+		padding:10px 0px;
+	}
+	#codeImageDiv {
+		margin-top:-120px;
+		padding-bottom:30px;
+	}
+	#codeDescriptionSection {
+		padding:30px 0px;
+		color:white;
+		font-size:1.1em;
+	}
+	#codeDescriptionSection .strong {
+		color:#999;
+		font-weight:bold;
+	}
+	#codeStepsDiv {
+		text-align:center;
+		padding:20px;
+		font-size:1.1em;
+		color:#515151;
+	}
+	#codeStepsTitle {
+		font-size:2.5em;
+		color:#375c78;
+		font-weight:center;
+		font-style:italic;
+		line-height:1em;
+		padding-bottom:10px;
+	}
+	#codeStepsDescription {
+		font-size:1.2em;
+		line-height:1.1em;
+		font-weight:center;
+		margin-bottom:20px;
+		font-style:italic;
+	}
+
+	#codeStepsTbl td {
+		text-align:left;
+		font-size:1.2em;
+		padding-top:10px;
+		padding-bottom:30px;
+	}
+	#codeStepsTbl td:first-of-type{
+		font-size:2.5em;
+		line-height:1.1em;
+		font-weight:bold;
+		font-weight:left;
+		padding-right:20px;
+		color:#375c78;
+	}
+	#codeFooterSection {
+		background-color:#d4d1d1;
+		padding:60px 30px 30px 30px;
+		text-align:right;
+		color:#333;
+		font-size:0.9em;
+	}
+
+
+	.mainSection {
+		padding:30px;
+		text-align:center;
+	}
+	.mainSection.nopadding {
+		padding:0px;
+	}
+	.mainSection.color_1 {
+		background-color:#d71a20;
+	}
+	.mainSection.color_2 {
+		background-color:white;
+	}
+	.mainSection.color_3 {
+	}
+	.mainSection.color_4 {
+		background-color:white;
+	}
+	.mainSection.color_5 {
+		background-color:#87c8f9;
+	}
+
+	.mainSectionDescription {
+		color:#375c78;
+		padding:10px 10px 0px 10px;
+		font-weight:bold;
+		font-size:1.5em;
+		line-height:1.1em;
+		text-align:center;
+	}
+	#cbbSectionDescriptionImageDiv {
+		max-width:400px;
+		margin:auto;
+	}
+
+	#cbbSectionDescriptionImageDiv img {
+		display:block;
+		margin:auto;
+		margin-top:30px;
+	}
+
+	#codeMainSection {
+		text-align:center;
+		background-size: 1167px 518px;
+    	background-repeat: no-repeat;
+    	background-position:center;
+    	min-height:518px;
+	}
+	#codeSaveBox {
+		font-size:1.2em;
+		font-weight:bold;
+	}
+	#codeFinanceBox {
+		color:#d71a20;
+		font-size:6em;
+		line-height:1.2em;
+	}
+	#codeDisclaimerBox {
+		color:#555;
+		font-style:italic;
+		font-size:1em;
+	}
+	#codeFindDealerBox {
+		color:#d71a20;
+		font-size:1.3em;
+		margin:30px 0px 10px 0px;
+	}
+	#codeOfferBox {
+		font-size:2em;
+		line-height:1.1em;
+		font-weight:bold;
+		border:4px solid #d71a20;
+		padding:20px;
+	}
+	#celebrateCanada {
+		font-family:"Raleway";
+		font-size:1.8em;
+		margin:20px 0px;
+		line-height:1.1em;
+	}
+	#celebrateCanada .strong {
+		color:#d71a20;
+		font-size:1.5em;
+		font-weight:bold;
+	}
+	#celebrateCanada .sm {
+		font-size:0.5em;
+		margin-top:5px;
+	}
+	#logo {
+		margin:auto;
+	}
+	#logo[campaign="1"] {
+		width:200px;
+	}
+	#logo[campaign="3"] {
+		width:300px;
+		padding:30px 0px;
+	}
+
+	.styleBox {
+		background-color:#e8e8e8;
+		padding:15px 30px;
+		border-left:50px solid #d71a20;
+		border-right:50px solid #e8e8e8;
+		text-align:left;
+		font-size:1.5em;
+		line-height:1em;
+	}
+	.styleBox.center {
+		text-align:center;
+	}
+	.styleBox > div {
+		padding:5px 0px;
+	}
+
+	.styleRedBox {
+		background-color:#d71a20;
+		padding:15px 30px;
+		color:white;
+		text-align:center;
+		font-size:1.5em;
+		font-weight:bold;
+		margin-bottom:20px;
+	}
+	#appraisalBanner {
+		text-align:left;
+		cursor:pointer;
+		padding-top:30px;
+		margin-top:30px;
+		border-top:1px solid #ccc;
+	}
+	#appraisalBannerTitle {
+		font-size:1.4em;
+		line-height:1.1em;
+		font-weight:bold;
+	}
+	#appraisalBannerDescription {
+		font-size:1.4em;
+		color:#737373;
+	}
+	#appraisalBannerClick {
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size:1.3em;
+		color:#d71a20;
+	}
+
+
+	.homeMainSection {
+		padding:100px 10px;
+	}
+	#shortcutActions {
+	}
+	.shortcutAction  {
+		text-align:center;
+		margin:10px 0px 30px 0px;
+	}
+
+	#topHeader {
+		width:100%;
+		min-height: 206px;
+		background: rgba(255,255,255,1);
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(117,117,117,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#757575', GradientType=1 );
+	}
+
+	#topHeader.absolute {
+		position:absolute;
+		background:none;
+	}
+
+	#headerLogo {
+		padding:30px;
+	}
+	#headerLogo img {
+		max-height: 150px;
+		display:block;
+		margin: auto;
+	}
+
+	#feature {
+		padding-top:150px;
+		padding-bottom:30px;
+		background-color:white;
+		/*
+		background: rgba(255,255,255,1);
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(117,117,117,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#757575', GradientType=1 ); */
+	}
+
+	#featureDetails {
+		border-bottom:2px solid black;
+		font-size:1.5em;
+		line-height:1.1em;
+		text-align:left;
+		font-family: "Roboto";
+		position:relative;
+	}
+	#featureDetailsDescription {
+		padding:30px 20px;
+	}
+	#featureDetailsDescription .sm{
+		font-size:0.8em ;
+	}
+	#featureVehicle,.featureVehicle {
+		position:absolute;
+	}
+	.featurePrice {
+		color:#d71a20;
+		font-size:3.5em;
+		line-height:1.1em;
+		font-weight:900;
+	}
+
+	.featurePrice .light {
+		font-size:0.5em;
+		line-height:0.5em;
+		color:#333;
+		font-weight:normal;
+	}
+
+	.sidelines{
+	     overflow: hidden;
+	     text-align: center;
+	 }
+	.sidelines > span{
+	    position: relative;
+	    display: inline-block;
+	}
+	.sidelines > span:before, .sidelines > span:after{
+	    content: '';
+	    position: absolute;
+	    top: 50%;
+	    border-bottom: 2px solid;
+	    width: 592px; /* half of limiter */
+	    margin: 0 20px;
+	}
+	.sidelines > span:before{
+	    right: 100%;
+	}
+	.sidelines > span:after{
+	    left: 100%;
+	}
+
+	.shortcutAction img {
+		display: block;
+    	margin: auto;
+	}
+
+	#homeVideoDiv {
+		position:absolute;
+		width:100%;
+	}
+	#homeBox {
+		padding:30px;
+		background-color:white;
+		border:1px solid #87c8f9;
+		box-shadow: 0px 0px 5px #888888;
+	}
+	#homeStory {
+		font-size:1.2em;
+		line-height:1.1em;
+		font-family:'Raleway';
+		padding:0px;
+		color:#5a5a5b;
+	}
+	#homeStory .title{
+		font-size:1.5em;
+		font-weight:bold;
+		border-bottom:1px solid #83c5f5;
+		margin-bottom:10px;
+		padding-bottom:10px;
+		color:black;
+	}
+	#homeActions {
+		padding-top:10px;
+	}
+	.homeAction {
+		padding:10px 0px;
+		text-align:center;
+	}
+
+	.homeActionIcon {
+		padding-right:20px;
+	}
+
+	.homeActionTitle {
+		text-transform:uppercase;
+		font-size:1.4em;
+		line-height:1.2em;
+		font-weight:bold;
+		padding-top:5px;
+	}
+
+	.homeActionTitle.addPadding {
+		padding-top:15px;
+	}
+	.homeActionDescription {
+		text-align:left;
+		line-height:1em;
+	}
+	#homeBannerDiv {
+		margin:10px 0px;
+	}
+	#noPaymentBox {
+		font-size:1.2em;
+		font-weight:bold;
+	}
+
+	#noPaymentBox input {
+		transform: scale(1.2);
+	}
+
+	#vehicleDescription {
+		font-size:1.2em;
+		font-weight:bold;
+		display:inline-block;
+		margin-right:10px;
+	}
+
+	#vehicleChange {
+		font-size:0.9em;
+		display:inline-block;
+
+	}
+
+	.formTbl,.infoTbl {
+		margin-top:10px;
+		width:100%;
+		line-height:1em;
+		font-size:1.2em;
+	}
+	.formTbl tbody th,.formTbl tbody td,.infoTbl tbody th,.infoTbl tbody td {
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	.formTbl tbody td.prefilled {
+		text-align:left;
+		padding-left:10px;
+		color:#777;
+
+	}
+	.formTbl tbody th,.infoTbl tbody th {
+		background-color:#f9f9f9;
+		color:#555;
+		padding:10px;
+		width:35%;
+	}
+
+	.formTbl select,.formTbl input {
+		width:100%;
+		height:100%;
+		border:0px;
+		padding:6px 10px;
+	}
+	.formTbl th.optional {
+		font-weight:normal;
+		color:#777;
+	}
+	.infoTbl td {
+		padding:5px;
+	}
+
+	.color_1 .infoTbl th {
+		color:white;
+		background-color:transparent;
+	}
+
+	#compareTbl {
+		margin-bottom:40px;
+	}
+
+	#compareTbl td,#incentivesTbl td {
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	#compareTbl thead th,#incentivesTbl thead th {
+		font-size:1.2em;
+		font-style:italic;
+		padding:0px 5px;
+		font-weight:normal;
+	}
+	#compareTbl thead td,#incentivesTbl thead td {
+		padding:0px;
+		vertical-align:bottom;
+	}
+	#compareTbl tbody th {
+		width:40% !important;
+	}
+	.compareTblHeader {
+		font-weight:bold;
+		background-color:#F0B51C;
+		margin:0px 20px;
+		padding:5px;
+	}
+	.incentiveAmount {
+		color: yellow;
+	}
+
+	#incentivesTbl thead th {
+		color:#ccc;
+	}
+
+	#incentivesTbl tbody th {
+		width:67% !important;
+	}
+
+	.formBtns {
+		margin-top:10px;
+		text-align:center;
+	}
+
+	.formBtns .btn {
+		margin-bottom:5px;
+	}
+
+	#changeVehicleDiv {
+		margin:10px 0px;
+		font-size:0.9em;
+	}
+
+	#logoutDiv {
+		margin:10px 0px;
+		font-size:0.9em;
+	}
+
+	#noComparables {
+		font-size:1.5em;
+		text-align:center;
+		font-weight:bold;
+		margin:20px;
+	}
+	.comparableVehicleDiv {
+		border:1px solid #eee;
+		padding:10px;
+		margin-bottom:10px;
+		cursor:pointer;
+	}
+	.comparableVehicleDiv.recommended {
+		background-color:#e0ffe0;
+	}
+	.vehicleRecommended {
+		text-align:center;
+		color:#5cb85c;
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size:1.1em;
+		line-height:1em;
+		font-style:italic;
+		margin-bottom:10px;
+	}
+
+	.vehicleDisclaimer {
+		font-size:0.9em;
+	}
+
+	.vehicleStock {
+		font-size:0.9em;
+		font-style:italic;
+		text-align:center;
+	}
+	#otherVehicles,#otherComparables {
+		margin-bottom:20px;
+	}
+	#otherVehiclesTitle,#otherComparablesTitle {
+		margin-bottom:0px;
+		font-size:1.1em;
+		font-weight:bold;
+	}
+	.otherVehicle,.otherComparable {
+		color:#337ab7;
+	}
+	.otherVehicle:hover,.otherComparable:hover {
+		color:#286090;
+	}
+
+
+
+	.paymentDetails {
+		margin:20px 0px;
+	}
+
+	.paymentDetails .payment {
+		color:#5cb85c;
+		font-size:2.5em;
+		line-height:1em;
+		margin-bottom:5px;
+	}
+	.paymentDetails .paymentFrequency {
+		color:#333;
+		font-weight:bold;
+		line-height:1em;
+	}
+	.paymentDetails .paymentTrade {
+		color:#999;
+		font-size:0.9em;
+	}
+
+	.compareVehicleBtns {
+		margin-top:10px;
+	}
+	.compareVehicleBtns button {
+		margin-right:0px;
+	}
+
+	.vehicleImage img {
+		width:100%;
+	}
+	.vehicleName {
+		background-color:#d71a20;
+		color:white;
+		line-height:1em;
+		font-size:1.5em;
+		padding:10px;
+	}
+	.appraisedVehicleName {
+
+		font-size:2em;
+		line-height:1em;
+		font-weight:bold;
+		padding:20px 0px 0px 0px;
+	}
+	.appraisedVehicleDescription {
+		font-size:1.4em;
+		color:#555;
+	}
+
+	#dealershipDiv {
+		background-color:#e8e8e8;
+		text-align:left;
+		margin-bottom:30px;
+	}
+	#dealershipDivTitle {
+		background-color:#d71a20;
+		color:white;
+		line-height:1em;
+		font-size:1.5em;
+		padding:10px;
+		text-transform: uppercase
+	}
+	#dealershipDetails {
+		padding:10px 20px;
+		font-size:1.1em;
+	}
+	#pacificaDiv {
+		font-family: "Raleway";
+		font-size:1.3em;
+		padding-top:30px;
+		margin-top:30px;
+		border-top:1px solid #ccc;
+		margin-bottom:30px;
+	}
+	#pacificMapleLeafLogo {
+		width:80px;
+	}
+	#pacificaDiv .strong{
+		color:#d71a20;
+		font-size:1.2em;
+		line-height:1.1em;
+		font-weight:bold;
+		margin-bottom:10px;
+	}
+	#pacificDetails {
+		text-align:left;
+		line-height:1em;
+		padding-top:20px;
+		margin-bottom:30px;
+	}
+	#pacificDetails .strong{
+		color:#333;
+		font-size:1.5em;
+	}
+	#pacificaDiv .sm{
+		font-size:0.9em;
+	}
+
+	#pacificaOffer {
+		font-weight:bold;
+	}
+	#pacificaOffer .strong {
+		color:#d71a20;
+		font-size:2em;
+		line-height:1em;
+		font-weight:bold;
+	}
+	#pacificaOffer .strong .light {
+		font-size:0.7em;
+		line-height:0.7em;
+		color:#333;
+		font-weight:normal;
+	}
+	#pacificaOffer .highlight {
+		color:#d71a20;
+		font-weight:bold;
+	}
+
+	#vehicleOffers {
+		margin:30px 0px;
+	}
+
+	.vehicle .sidelines > span:before, .vehicle .sidelines > span:after{
+	    border-bottom: 4px solid #d71a20;
+	}
+	.vehicleDetails {
+		border:4px solid #d71a20;
+		border-top:0px;
+		padding:0px;
+		background-color:#e8e8e8;
+	}
+	.vehicleOffer {
+		margin-bottom:30px;
+	}
+	.vehicleOffer_num {
+		color:#d71a20;
+		font-weight:bold;
+		font-size:1.8em;
+		display:inline-block;
+	}
+	.vehicleDetails .vehicleBanner{
+		padding:10px;
+		background-color:white;
+		line-height:1em;
+		font-size:1.2em;
+	}
+	.offerDetailsWrapper {
+
+		width:100%;
+		display:table;
+		margin-left:-15px;
+		margin-right:15px;
+	}
+	.offerDetails {
+		text-align:center;
+		font-size:1.1em;
+		width:100%;
+		display:table-cell;
+		vertical-align:middle;
+	}
+	.offerDetails .strong,.vehicleDetails .vehicleBanner .strong {
+		color:#d71a20;
+		font-size:2.5em;
+		line-height:1.1em;
+		font-weight:bold;
+		margin-bottom:3px;
+	}
+
+	.offerDetails .strong .light {
+		font-size:0.7em;
+		line-height:0.7em;
+		color:#333;
+		font-weight:normal;
+	}
+
+	.offerDetails .description {
+		line-height:1.1em;
+	}
+	.offerDetails .red {
+		color:#d71a20;
+		font-weight:bold;
+	}
+
+	.vehicleOffer_description {
+		font-size:0.8em;
+		line-height:1em;
+		display:inline-block;
+		text-align:left;
+	}
+
+	#changeInfoBtns > div {
+		margin-bottom:5px;
+	}
+	#changeInfoBtns .strong {
+		font-weight:bold;
+	}
+
+	.btn-lg.xl {
+		width:100%;
+		font-family:'Raleway';
+		font-size:1.5em;
+	}
+
+	#coffeeComplete {
+		font-size:1.3em;
+		padding:10px;
+		/* background-color:#e8e8e8; */
+		text-align:left;
+	}
+	#coffeeComplete .strong {
+		color:#d71a20;
+		font-size:1.2em;
+		font-weight:bold;
+		padding-bottom:20px;
+	}
+
+	#registerDisclaimer {
+		padding:10px;
+		font-size:0.9em;
+		text-align:left;
+	}
+
+	.tooltip-inner {
+		background-color:white;
+		padding:15px 10px;
+		font-size:1.2em;
+		border-radius:0px;
+		border:1px solid #375c78;
+		color: #375c78;
+		font-weight:bold;
+	}
+
+	.formDescription {
+		margin:10px 0px;
+		font-style:italic;
+	}
+
+	#footer {
+		background-color:#afafaf;
+		padding:30px 0px 30px 0px;
+		color:white;
+		font-size:0.9em;
+		text-align:center;
+	}
+
+	#footerDisclaimer {
+		font-size:0.8em;
+		padding:30px 10px;
+		color:#444;
+		font-weight:normal;
+	}
+
+	#footerDisclaimerBar {
+		padding-bottom:10px;
+		font-size:1.2em;
+		background-color:#d71a20;
+		color:white;
+		padding:5px;
+		margin-bottom:5px;
+	}

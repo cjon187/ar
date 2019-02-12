@@ -1,0 +1,12 @@
+.page {
+	width:1024px;
+	font-size:1em;
+	font-family:arial;
+	font-size:1.1em;
+}
+.page:not(:last-of-type) {
+	page-break-after: always;
+}
+.signatureTbl td {
+	height:100px;
+}

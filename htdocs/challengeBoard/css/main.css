@@ -1,0 +1,279 @@
+@font-face {
+    font-family: MyFont;
+    src: url('../images/serpntb-webfont.eot');
+	src: url('../images/serpntb-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../images/serpntb-webfont.woff') format('woff'),
+	     url('../images/serpntb-webfont.ttf')  format('truetype')
+}
+
+.container{
+	text-align:center;
+}
+#bannerDiv{
+	margin:auto;
+	margin-top: 20px;
+	text-align:center;
+
+}
+#bannerDiv img {
+	margin:auto;
+}
+
+#dateSelectDiv {
+	width:100%;
+	max-width:400px;
+	margin:20px auto;
+}
+
+	.pseudoBanner{
+		font-size:5.0em;
+		line-height: 1.0em;
+		color:white;
+		font-family:'MyFont',arial;
+		width: 100%;
+		margin-bottom: 0px;
+		text-transform: uppercase;
+		text-align:center;
+	}
+
+.clockDiv{
+		width: 900px;
+		padding: 10px 0px;
+		text-align:center;
+		color: white;
+		background-color: rgba(10, 10, 10, 0.7);
+		margin:auto;
+	}
+	.challengeBeginsDiv{
+		font-family: Raleway;
+		font-size: 2.8em;
+	}
+	.challengeEndsDiv{
+		font-family: Raleway;
+		font-size: 2.1em;
+	}
+	.flip-clock-wrapper{
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right:auto;
+		width: 630px;
+	}
+		.flip-clock-divider .flip-clock-label{
+			color: white;
+			font-family: Raleway;
+			font-size: 1.8em;
+			right: -100px;
+		}
+		.flip-clock-divider.minutes .flip-clock-label{
+			right: -110px;
+		}
+		.flip-clock-divider.seconds .flip-clock-label{
+			right: -110px;
+		}
+        .flip-clock-wrapper ul li a div div.inn {
+            color: #FFF;
+            text-shadow: 0 1px 1px #555;
+            background-color: #222;
+        }
+
+.endClock{
+	zoom: 0.6;
+	-moz-transform: scale(0.6)
+}
+
+#dateDiv{
+	margin-top: 10px;
+	height: 40px;
+	line-height: 30px;
+	vertical-align:middle;
+	font-size: 2.5em;
+	font-family: 'Montserrat';
+	color: white;
+}
+	#dateSelect{
+		width: 100%;
+		text-align:center;
+	}
+	.nice-select{
+		text-align:center !important;
+		background: rgba(65,65,65,1);
+		background: -moz-linear-gradient(top, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,65,65,1)), color-stop(100%, rgba(40,40,40,1)));
+		background: -webkit-linear-gradient(top, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 100%);
+		background: -o-linear-gradient(top, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 100%);
+		background: -ms-linear-gradient(top, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 100%);
+		background: linear-gradient(to bottom, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414141 ', endColorstr='#282828 ', GradientType=0 );
+		color: #ccc;
+		font-size: 0.6em;
+		border: 1px solid #111;
+		font-family: 'Montserrat' !important;
+	}
+		.nice-select .list{
+			background: rgba(0,0,0, 0.9);
+			max-height: 300px;
+			overflow-y:scroll;
+		}
+			.nice-select .list li{
+				font-size: 0.8em;
+				text-align:center;
+
+			}
+
+#totalSalesBanner{
+	background: rgba(172,07,09, 0.6);
+	color:yellow;
+	font-family:'Montserrat',arial;
+	font-size:4em;
+	line-height:1em;
+	padding:15px 5px;
+	max-width:900px;
+	margin:30px auto;
+	text-align:center;
+}
+
+#customCode1Div{
+	margin-top: 10px;
+	margin:auto;
+	max-width: 1000px;
+}
+	.soldTbl{
+		margin:auto;
+	}
+
+#apptsDealsDiv{
+
+}
+	.apptsDealsSubDiv{
+		display:inline-block;
+		font-size:2em;
+		font-family:'Montserrat';
+		color:yellow;
+	}
+
+#speedometerDiv{
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+	.center{
+		text-align:center;
+	}
+	.absolute{
+		position:absolute;
+	}
+	.bold{
+		font-weight:bold;
+	}
+	.dialDiv {
+		-webkit-background-size:100%;
+		-moz-background-size:100%;
+		background-size:100%;
+		background-position: 50% 50%;
+	}
+	.dialImg {
+	  width: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+
+#viewSecondaryDiv{
+	margin-top: 15px;
+}
+	.weekImageDiv{
+		width: 180px;
+		display:inline-block;
+		cursor:pointer;
+	}
+	.weekImage{
+		width: 100%;
+	}
+
+.progress {
+	margin-bottom:0px;
+}
+#apptCounterDiv{
+	text-align:center;
+	margin: 20px auto;
+	max-width: 300px;
+	color:white;
+}
+	.ui-widget-container{
+		font-size:11pt;
+		width: 300px;
+		text-align:center;
+		color: white;
+		background-color: none;
+		padding: 0 25px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.ui-widget-percent
+	{
+		background: #cf0000;
+		color: #222222;
+		font-weight: bold;
+		height: 100%;
+	}
+	.ui-widget-content {
+		border: 2px solid black;
+		background: #333;
+		color: #222222;
+		height: 22px;
+	}
+
+#newUsedDiv{
+	margin:auto;
+	margin-top: 10px;
+	padding:10px;
+	font-weight:bold;
+	font-size:15pt;
+	width: 250px;
+}
+	#toggleNewUsed{
+		width: 230px;
+		background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.47) 100%) !important;
+		padding: 10px;
+	}
+
+#summaryDiv{
+	margin:auto;
+	margin-top: 10px;
+	width: 1000px;
+}
+	.listTbl {
+		width: 1000px;
+	}
+		.listTbl th {
+			color:#eeeeee;
+			background-image:url('../images/thBG.jpg');
+			font-size:9pt;
+			height:20px;
+			vertical-align:middle;
+			padding:5px;
+			border-bottom:1px solid #eee
+		}
+		.listTbl td {
+			color:white;
+			border-bottom:1px solid #cccccc;
+			height:30px;
+			vertical-align:middle;
+			text-align:center;
+			background-color:black;
+			padding: 5px;
+		}
+
+	.salesrepListTbl{
+		margin-top: 20px;
+	}
+		.salesrepListTbl td{
+			height: 25px;
+			padding: 5px;
+		}
+
+
+.copyright{
+	margin-top: 25px;
+	color: white;
+}

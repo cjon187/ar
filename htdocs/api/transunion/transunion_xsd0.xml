@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+<xs:import schemaLocation="http://ar.absoluteresults.com/api/transunion/transunion_xsd2.xml" namespace="http://schemas.datacontract.org/2004/07/"/>
+<xs:element name="ExecuteXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ExecuteXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ExecuteXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ExecuteXMLBinary">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:base64Binary"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ExecuteXMLBinaryResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ExecuteXMLBinaryResult" nillable="true" type="xs:base64Binary"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SaveXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SaveXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="SaveXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RetrieveXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ViewApplicationXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ViewApplicationXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ViewApplicationXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ViewApplicationHistoryXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ViewApplicationHistoryXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ViewApplicationHistoryXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="UnlockApplicationXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="UnlockApplicationXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="UnlockApplicationXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveSSXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveSSXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RetrieveSSXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveAppsByRangeXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveAppsByRangeXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RetrieveAppsByRangeXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="AuthenticateXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="AuthenticateXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="AuthenticateXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ChangePasswordXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ChangePasswordXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ChangePasswordXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ReassignApplicationXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ReassignApplicationXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ReassignApplicationXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SerachApplicationXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SerachApplicationXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="SerachApplicationXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SearchApplicationXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="SearchApplicationXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="SearchApplicationXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveSecretQuestionXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveSecretQuestionXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RetrieveSecretQuestionXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ResetPasswordByUserXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="ResetPasswordByUserXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="ResetPasswordByUserXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="UploadDocumentXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="fileBuffer" nillable="true" type="xs:base64Binary"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="UploadDocumentXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="UploadDocumentXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveDocumentMetaDataXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RetrieveDocumentMetaDataXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RetrieveDocumentMetaDataXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="DownloadDocument">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="DownloadDocumentResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="DownloadDocumentResult" nillable="true" type="q1:DownloadDocumentResponseContract" xmlns:q1="http://schemas.datacontract.org/2004/07/"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RemoveDocument">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="RemoveDocumentResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="RemoveDocumentResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="LogoutSessionXMLString">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="request" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="LogoutSessionXMLStringResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs="0" name="LogoutSessionXMLStringResult" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

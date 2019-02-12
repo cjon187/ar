@@ -1,0 +1,91 @@
+week: Semaine
+coming_soon: images/comingsoon-fr.png
+no_events_url: images/noevents-fr.png
+appointsments_url: appointments/indexEmbedNewFR.php
+week1: images/week1-fr.png
+week2: images/week2-fr.png
+week3: images/week3-fr.png
+week4: images/week4-fr.png
+week5: images/week5-fr.png
+appts_caps: rsvp
+shows_caps: arrivée
+sales_caps: Ventes
+solds_caps: Vendus
+sold_caps: Vendu
+closing_caps: CONCLURE
+salesreps_caps: VENDEUR
+back_to_main: Retour
+see_new_sales: VOIR LES VENTES DE NEUF
+see_used_sales: "VOIR LES VENTES D'USAGER"
+OC: OC
+dealership: Concessionnaire
+dealerships: Concessionnaires
+salesperson: Vendeur
+ups: "Up's"
+sales: Ventes
+closing: % de clôture
+appts: Rsvp
+goal: But
+pace: Gain
+kept: Conservé
+challenge_board_totals: Total des Tableaux de Défi
+loading_caps: CHARGEMENT...
+total_sales: VENTES TOTALES
+total_new_sales: TOTAL NEUF
+total_used_sales: TOTAL USAGER
+no_events: "Pas d'événements"
+rep: Rep
+appts2: Rendez-vous
+deals: Vendus
+salesreps: Vendeur
+total: Totale
+appointments_made: RSVP confirme
+week6: images/week6-fr.png
+
+appt_goal: Objectif RDV
+appt_set: RDV pris
+appt_pace: Cadence RDV
+appt_shows: RDV présents
+all_shows: Présents
+sold: Vendu
+sold_goal: Objectif vendus
+sold_pace: Cadence vendus
+
+new: Neuf
+used: Usagé
+
+username: Nom d'utilisateur
+password: Mot de passe
+login: Ouvrir la session
+logout: Connectez - Out
+forgot_password: Mot de passe oublié?
+invalid_login: Identifiant invalide
+change_board: Changer de tableau
+
+select_board: Sélectionner un tableau des défis
+no_boards_found: Aucun tableau des défis n’a été trouvé
+no_record: Ce courriel n’a pas été inscrit
+email_me: Envoyez-moi un courriel
+reset_instructions: Nous vous enverrons un courriel avec des instructions sur la façon de changer votre mot de passe.
+sending_email: Courriel en cours d’envoi…
+email_success: Courriel envoyé. Pour changer votre mot de passe, veuillez consultez votre boîte de réception.
+login_banner_image: defaultBannerLoginImage_fr
+
+change_password:
+  title: Changer le mot de passe de votre compte
+  updating_password: Mise à jour du mot de passe en cours
+  password_match: Les mots de passe ne correspondent pas
+  enter_password: Veuillez saisir un mot de passe
+  password_updated: Le mot de passe est maintenant mis à jour
+  new_password: Nouveau mot de passe
+  confirm_new_password: Confirmez le nouveau mot de passe
+  change_password: Changez le mot de passe
+  back_to_account: Retour à votre compte
+
+timer:
+  starts: Sales Challenge Begins In FR:
+  ends: Sales Challenge Ends In FR:
+  days: Days FR
+  hours: Hours FR
+  minutes: Minutes FR
+  seconds: Seconds FR

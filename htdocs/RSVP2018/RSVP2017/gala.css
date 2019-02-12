@@ -1,0 +1,36 @@
+@media only screen and (max-width: 767px)  {
+	.spaceOut{
+		margin-top: 25px;
+	}
+}
+
+body {
+	font-size:1em;
+	/*color: black;*/
+	min-width: 480px;
+	 font-family: 'Quattrocento Sans';
+
+}
+h1, h2, h3, h4, h5, p, .sectionHeader{
+	color: #black;
+}
+input {font-size:0.9em}
+hr{
+	margin: 10px 0px !important;
+	border-color: #444444 !important;
+	color: #444444;
+}
+
+
+.container2{
+	max-width: 1180px;
+	margin:auto;
+	min-height: 450px;
+}
+	.innerContainer{
+		max-width: 980px;
+		margin:auto;
+	}
+
+
+

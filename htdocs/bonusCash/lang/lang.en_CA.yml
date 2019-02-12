@@ -1,0 +1,193 @@
+code:
+  header_logo: ""
+  header_description: Take advantage of special incentives and high trade-in values.
+  header_button_description: Learn About the Incentives
+  code_action: Start here
+  code_placeholder: Your Code
+  code_validation_error: Invalid Code
+  you_are_invited: YOU'RE INVITED.
+  what_is_your_registration_code: WHAT IS YOUR REGISTRATION CODE?
+  go: GO
+  select_dealership: Please select your dealership below
+
+
+action_steps:
+  step1_title: Receive Special Deals and Savings
+  step1_description: Our manufacturer affiliates will be at the event, where you can receive and take advantage of a range of special offers. These specials are limited to you and a select number of VIP guests.
+  step2_title: Get Your No-Charge Vehicle Appraisal
+  step2_description: Your current car, truck or SUV might be worth thousands more than you think. Fill out the form to get the Canadian Black Book value on your trade-in.
+  step3_title: Download Your Coupon
+  step3_description: Register to receive your appointment bonus and extra value coupon.
+
+
+form_information:
+  title: Tell us a little bit about you
+  first_name: First Name
+  last_name: Last Name
+  cell_phone: Cell Phone
+  cell_phone_placeholder: 000-000-000
+  email: Email
+  postal_code: Postal Code
+  your_vehicle: Your Vehicle
+  access_code: Access Code
+  interested_vehicle: Please select the models you are interested in
+  skill_testing: Skill-Testing Question
+
+
+top_information:
+  title: |
+          YOU'RE INVITED
+          TO THE %dealer_name%
+          PRIVATE SALE EVENT
+  location: LOCATION
+  date: DATE
+  rsvp_now: RSVP NOW
+
+mid_banner:
+  title: |
+          GET YOUR DEAL TODAY.
+
+options:
+  title: Here are your next steps...
+  step: STEP %step_num%
+  appraisal:
+    title: Get your free trade-in appraisal estimate.
+    description: Click here to find the current Canadian Black Book value of your car.
+  coupon:
+    title: Download your coupon.
+    description: Click here to view and download your personlized Private Sale coupon.
+  enhancement:
+    title: Compare your vehicle.
+    description: Click here to see the enhancements on our newer models.
+  priorities:
+    title: Select your unique event offers.
+    description: Click here to tell us which offers mean the most to you.
+  website:
+    title: Visit our dealership webpage.
+    description: Click here to learn more about our dealership and available vehicle lineups.
+
+
+vehicle_appraisal:
+  title: What is the value of your vehicle?
+  year: Year
+  make: Make
+  model: Model
+  trim: Trim
+  style: Style
+  years: Years
+  makes: Makes
+  models: Models
+  trims: Trims
+  styles: Styles
+  kilometers: Kilometers
+  none: None
+  disclaimer: |
+              For information purposes only. Actual market value may differ.
+              Dealership appraisal required.
+  results: |
+            According to Canadian Black Book<sup>&reg;</sup>,
+            your ^start_b^%result_year% %result_make% %result_model%^end_b^ is worth ^start_b^%result_tradeInLow% - %result_tradeInHigh%^end_b^.
+  fail_message: |
+                Sorry, we were unable to get the Canadian Black Book^reg_symbol^ appraisal value.
+
+                Please ensure all fields are field in.
+
+                If problem persists, please contact %contact% for more details.
+
+coupon:
+  download: Download Coupon
+
+vehicle_enhancements:
+  your_current_vehicle: Your Current Vehicle
+  comparison_vehicle: Comparison Vehicle
+
+vehicle_enhancement_results:
+  year_make_model: Year / Make / Model
+  trim_style: Trim/Style
+  fuel_efficiency: Fuel efficiency
+  fuel_efficiency_data: %efficiency_city% / %efficiency_hwy% ^start_tag^L/100 KM^end_tag^
+  manufacturer_enhancements: Manufacturer enhancements
+  note: Some enhancements may not be viewed as advantages depending on the vehicles chosen to compare. All attempts to make an exact comparison in each category have been made.
+
+priorities:
+  title: What's Your Priority
+  lower_payment: Lower My Vehicle Payments
+  new_vehicle: Get a New Vehicle
+  event_bonus: Activate my Event Bonus
+  save: Save Priorities
+
+validation_error: Please complete all the required fields to RSVP. Thank you.
+validation_data_error: There is an error with the information provided, please try again.
+validation_captcha: |
+                    Human Verification Check
+                    Please Click the Broken Circle
+validation_captcha_fail: Please click the broken circle.
+validation_captcha_fail_title: Check not completed.
+form_submit: Go
+i_agree: I Agree
+close: Close
+back: Back
+please_wait: Please wait
+optIn: Yes, ^dealer_name^ and Absolute Results Productions Limited can send electronic communications and voice calls on behalf of ^dealer_name^ in accordance with the ^start_policy_link^Privacy Policy^end_policy_link^. I understand that I may withdraw my consent at any time.
+finish_and_submit: Finish & Submit
+thank_you: Thank you.
+you_are_now_registered: You are now registered.
+please_check_email: Please check your email inbox for confirmation and additional information.
+street: Street
+city: City
+province: Province
+birth_date: Birth Date
+month: Month
+day: Day
+year: Year
+read_more: Read More
+next: Next
+
+common:
+  copyright: %year% Copyright ^copyright_symbol^ Absolute Results Productions Ltd.
+
+details_card:
+  the_private_sale: THE PRIVATE SALE
+  get_appraisal: |
+                  Right now we are offering top-dollar for all trade-in vehicles. Your current car, truck or SUV might be worth thousands more than you think! Fill out the form to get the Canadian Black Book value on your trade-in!
+  get_appraisal_no_cbb: |
+                        Right now we are offering top-dollar for all trade-in vehicles. Your current car, truck or SUV might be worth thousands more than you think!
+  get_appraisal_us: |
+                    Right now we are offering top-dollar for all trade-in vehicles. Your current car, truck or SUV might be worth thousands more than you think! Fill out the form to get the Black Book value on your trade-in!
+  invited_and_rsvp: |
+                    You are invited to a Private Sales Event. Take advantage of private access to a range of special offers.
+
+                    Please RSVP in advance, as we expect high attendance.
+
+preapproval:
+  apply: Apply for preapproval
+  not_sure: Not sure about your credit? With recent incentives, you may qualify to upgrade to a brand new vehicle!
+  click_to_start: Click here to get started
+  how_long_employed: How long have you been working with your current company?
+  current_monthly_income: What is your current monthly income?
+  monthly_income: Monthly Income
+  i_consent: I CONSENT
+  disclaimer_1: By checking the "I consent" box, I hereby consent and agree to the collection, use, disclosure, and retention of my personal information by Absolute Results Production Ltd.
+  disclaimer_2: ("Absolute") in accordance with the following:<br><br>(1) Absolute may collect, use, and disclose, including to its agents or its third party service providers, the personal information that I provide to Absolute (the "Personal Information") as necessary to obtain credit, financial, and related personal information (the "Credit Information"), including a credit or consumer information report about me, from any credit bureau or credit reporting agency, and to advise me on credit availability relating to purchase financing for products and/or services provided by Absolute, its agents, its dealers, or other third parties;
+
+full_form:
+  rsvp_here: RSVP HERE
+  step_1: Step 1
+  who_you_are: Tell us who you are.
+  step_2: Step 2
+  your_vehicle: Tell us about your current vehicle.
+  step_3: Step 3
+  apply_preapproval: Apply for preapproval
+  step_4: Step 4
+  check_email: Check your email to see what your car is worth.
+  privacy_disclaimer: Your privacy is important to us. By providing your personal information, you consent to its use and disclosure in accordance with our Privacy Policy. Therefore, it is important that you read and understand our privacy policy prior to providing any personal information about yourself.
+  privacy_link: Privacy Policy
+
+next_vehicle:
+  title: What kind of vehicle are you looking for?
+  car: CAR
+  suv: SUV
+  van: VAN
+  truck: TRUCK
+
+privacy_policy_url: http://www.absoluteresults.com/downloads/Privacy Policy.pdf
